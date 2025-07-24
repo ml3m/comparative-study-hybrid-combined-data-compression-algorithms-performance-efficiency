@@ -1,0 +1,5990 @@
+[
+  {
+    "id": 57357,
+    "name": "User809",
+    "email": "user886@example.com",
+    "age": 44,
+    "active": false,
+    "balance": 7377.77,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-02-19",
+      "source": "import"
+    }
+  },
+  {
+    "id": 43994,
+    "name": "User339",
+    "email": "user402@example.com",
+    "age": 50,
+    "active": false,
+    "balance": 5083.97,
+    "tags": [
+      "vip",
+      "trial",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-02-04",
+      "source": "import"
+    }
+  },
+  {
+    "id": 60785,
+    "name": "User34",
+    "email": "user778@example.com",
+    "age": 74,
+    "active": true,
+    "balance": 4677.14,
+    "tags": [
+      "vip",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-08-03",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 80036,
+    "name": "User339",
+    "email": "user842@example.com",
+    "age": 33,
+    "active": true,
+    "balance": 7553.72,
+    "tags": [
+      "vip",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-08-26",
+      "source": "web"
+    }
+  },
+  {
+    "id": 66815,
+    "name": "User847",
+    "email": "user225@example.com",
+    "age": 69,
+    "active": true,
+    "balance": 6351.2,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-01-21",
+      "source": "web"
+    }
+  },
+  {
+    "id": 59552,
+    "name": "User546",
+    "email": "user669@example.com",
+    "age": 47,
+    "active": true,
+    "balance": 6479.69,
+    "tags": [
+      "vip",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-07-12",
+      "source": "import"
+    }
+  },
+  {
+    "id": 69512,
+    "name": "User42",
+    "email": "user752@example.com",
+    "age": 23,
+    "active": true,
+    "balance": 1823.06,
+    "tags": [
+      "premium",
+      "basic",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-01-07",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 71696,
+    "name": "User288",
+    "email": "user236@example.com",
+    "age": 74,
+    "active": false,
+    "balance": 8630.96,
+    "tags": [
+      "premium",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-08-03",
+      "source": "web"
+    }
+  },
+  {
+    "id": 61259,
+    "name": "User569",
+    "email": "user77@example.com",
+    "age": 52,
+    "active": true,
+    "balance": 6465.49,
+    "tags": [
+      "trial",
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-10-22",
+      "source": "import"
+    }
+  },
+  {
+    "id": 73395,
+    "name": "User483",
+    "email": "user375@example.com",
+    "age": 76,
+    "active": false,
+    "balance": 7071.85,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-06-18",
+      "source": "import"
+    }
+  },
+  {
+    "id": 20221,
+    "name": "User940",
+    "email": "user764@example.com",
+    "age": 67,
+    "active": true,
+    "balance": 4421.58,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-07-18",
+      "source": "api"
+    }
+  },
+  {
+    "id": 63947,
+    "name": "User411",
+    "email": "user340@example.com",
+    "age": 28,
+    "active": true,
+    "balance": 4675.81,
+    "tags": [
+      "vip",
+      "premium",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-06-28",
+      "source": "api"
+    }
+  },
+  {
+    "id": 58833,
+    "name": "User859",
+    "email": "user581@example.com",
+    "age": 52,
+    "active": false,
+    "balance": 7516.19,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-07-28",
+      "source": "api"
+    }
+  },
+  {
+    "id": 37316,
+    "name": "User80",
+    "email": "user735@example.com",
+    "age": 53,
+    "active": false,
+    "balance": 4616.39,
+    "tags": [
+      "standard",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-02-22",
+      "source": "api"
+    }
+  },
+  {
+    "id": 78369,
+    "name": "User502",
+    "email": "user751@example.com",
+    "age": 65,
+    "active": true,
+    "balance": 8906.74,
+    "tags": [
+      "standard",
+      "trial",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-03-14",
+      "source": "web"
+    }
+  },
+  {
+    "id": 88312,
+    "name": "User659",
+    "email": "user105@example.com",
+    "age": 64,
+    "active": true,
+    "balance": 1071.67,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-05-22",
+      "source": "import"
+    }
+  },
+  {
+    "id": 20918,
+    "name": "User780",
+    "email": "user964@example.com",
+    "age": 38,
+    "active": false,
+    "balance": 7830.6,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-07-27",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 26178,
+    "name": "User91",
+    "email": "user9@example.com",
+    "age": 78,
+    "active": true,
+    "balance": 9617.78,
+    "tags": [
+      "standard",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-08-11",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 4662,
+    "name": "User473",
+    "email": "user779@example.com",
+    "age": 30,
+    "active": false,
+    "balance": 1767.49,
+    "tags": [
+      "premium",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-05-03",
+      "source": "web"
+    }
+  },
+  {
+    "id": 8129,
+    "name": "User524",
+    "email": "user937@example.com",
+    "age": 40,
+    "active": false,
+    "balance": 1002.72,
+    "tags": [
+      "trial",
+      "vip",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-04-21",
+      "source": "api"
+    }
+  },
+  {
+    "id": 93643,
+    "name": "User932",
+    "email": "user657@example.com",
+    "age": 78,
+    "active": true,
+    "balance": 5480.98,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-04-13",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 63495,
+    "name": "User661",
+    "email": "user205@example.com",
+    "age": 48,
+    "active": true,
+    "balance": 7693.68,
+    "tags": [
+      "trial",
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-05-23",
+      "source": "web"
+    }
+  },
+  {
+    "id": 1789,
+    "name": "User507",
+    "email": "user421@example.com",
+    "age": 34,
+    "active": true,
+    "balance": 6166.81,
+    "tags": [
+      "basic",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-11-03",
+      "source": "import"
+    }
+  },
+  {
+    "id": 2520,
+    "name": "User328",
+    "email": "user375@example.com",
+    "age": 18,
+    "active": false,
+    "balance": 6683.89,
+    "tags": [
+      "vip",
+      "basic",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-05-26",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 54503,
+    "name": "User460",
+    "email": "user458@example.com",
+    "age": 45,
+    "active": false,
+    "balance": 300.75,
+    "tags": [
+      "trial",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-10-23",
+      "source": "api"
+    }
+  },
+  {
+    "id": 12549,
+    "name": "User26",
+    "email": "user289@example.com",
+    "age": 24,
+    "active": false,
+    "balance": 3264.72,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-11-02",
+      "source": "web"
+    }
+  },
+  {
+    "id": 66801,
+    "name": "User245",
+    "email": "user412@example.com",
+    "age": 76,
+    "active": true,
+    "balance": 9928.4,
+    "tags": [
+      "vip",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-09-13",
+      "source": "web"
+    }
+  },
+  {
+    "id": 11950,
+    "name": "User415",
+    "email": "user490@example.com",
+    "age": 37,
+    "active": true,
+    "balance": 6296.81,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-05-24",
+      "source": "import"
+    }
+  },
+  {
+    "id": 10266,
+    "name": "User551",
+    "email": "user293@example.com",
+    "age": 31,
+    "active": false,
+    "balance": 8620.97,
+    "tags": [
+      "basic",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-12-13",
+      "source": "api"
+    }
+  },
+  {
+    "id": 86794,
+    "name": "User580",
+    "email": "user580@example.com",
+    "age": 39,
+    "active": false,
+    "balance": 9819.3,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-08-13",
+      "source": "import"
+    }
+  },
+  {
+    "id": 64822,
+    "name": "User925",
+    "email": "user533@example.com",
+    "age": 71,
+    "active": true,
+    "balance": 46.6,
+    "tags": [
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-04-15",
+      "source": "api"
+    }
+  },
+  {
+    "id": 39329,
+    "name": "User568",
+    "email": "user936@example.com",
+    "age": 60,
+    "active": false,
+    "balance": 8864.32,
+    "tags": [
+      "vip",
+      "premium",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-02-24",
+      "source": "import"
+    }
+  },
+  {
+    "id": 15865,
+    "name": "User92",
+    "email": "user140@example.com",
+    "age": 52,
+    "active": true,
+    "balance": 936.87,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-03-03",
+      "source": "web"
+    }
+  },
+  {
+    "id": 17187,
+    "name": "User146",
+    "email": "user439@example.com",
+    "age": 69,
+    "active": true,
+    "balance": 6000.59,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-09-12",
+      "source": "web"
+    }
+  },
+  {
+    "id": 45382,
+    "name": "User301",
+    "email": "user819@example.com",
+    "age": 41,
+    "active": false,
+    "balance": 7829.15,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-06-15",
+      "source": "web"
+    }
+  },
+  {
+    "id": 14656,
+    "name": "User816",
+    "email": "user672@example.com",
+    "age": 60,
+    "active": false,
+    "balance": 7189.64,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-05-24",
+      "source": "web"
+    }
+  },
+  {
+    "id": 84780,
+    "name": "User490",
+    "email": "user420@example.com",
+    "age": 51,
+    "active": false,
+    "balance": 7717.77,
+    "tags": [
+      "basic",
+      "vip",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-11-10",
+      "source": "web"
+    }
+  },
+  {
+    "id": 97881,
+    "name": "User335",
+    "email": "user740@example.com",
+    "age": 55,
+    "active": false,
+    "balance": 9391.78,
+    "tags": [
+      "vip",
+      "trial",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-02-28",
+      "source": "import"
+    }
+  },
+  {
+    "id": 1217,
+    "name": "User780",
+    "email": "user682@example.com",
+    "age": 24,
+    "active": false,
+    "balance": 2411.05,
+    "tags": [
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-01-21",
+      "source": "import"
+    }
+  },
+  {
+    "id": 86186,
+    "name": "User751",
+    "email": "user565@example.com",
+    "age": 62,
+    "active": false,
+    "balance": 1251.98,
+    "tags": [
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-06-16",
+      "source": "web"
+    }
+  },
+  {
+    "id": 5749,
+    "name": "User54",
+    "email": "user172@example.com",
+    "age": 48,
+    "active": true,
+    "balance": 5012.12,
+    "tags": [
+      "basic",
+      "standard",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-03-18",
+      "source": "web"
+    }
+  },
+  {
+    "id": 49495,
+    "name": "User445",
+    "email": "user660@example.com",
+    "age": 23,
+    "active": false,
+    "balance": 5048.01,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-10-02",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 20719,
+    "name": "User363",
+    "email": "user806@example.com",
+    "age": 37,
+    "active": true,
+    "balance": 5337.25,
+    "tags": [
+      "standard",
+      "vip",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-02-11",
+      "source": "web"
+    }
+  },
+  {
+    "id": 62369,
+    "name": "User354",
+    "email": "user714@example.com",
+    "age": 20,
+    "active": false,
+    "balance": 6881.78,
+    "tags": [
+      "basic",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-03-11",
+      "source": "web"
+    }
+  },
+  {
+    "id": 92173,
+    "name": "User109",
+    "email": "user542@example.com",
+    "age": 77,
+    "active": false,
+    "balance": 6555.93,
+    "tags": [
+      "standard",
+      "trial",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-04-06",
+      "source": "api"
+    }
+  },
+  {
+    "id": 27074,
+    "name": "User97",
+    "email": "user633@example.com",
+    "age": 48,
+    "active": true,
+    "balance": 8695.24,
+    "tags": [
+      "basic",
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-07-06",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 52441,
+    "name": "User47",
+    "email": "user843@example.com",
+    "age": 36,
+    "active": false,
+    "balance": 2646.02,
+    "tags": [
+      "basic",
+      "premium",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-11-04",
+      "source": "import"
+    }
+  },
+  {
+    "id": 62318,
+    "name": "User456",
+    "email": "user616@example.com",
+    "age": 20,
+    "active": false,
+    "balance": 9121.47,
+    "tags": [
+      "vip",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-02-22",
+      "source": "import"
+    }
+  },
+  {
+    "id": 30545,
+    "name": "User513",
+    "email": "user114@example.com",
+    "age": 42,
+    "active": false,
+    "balance": 2381.45,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-01-14",
+      "source": "import"
+    }
+  },
+  {
+    "id": 5991,
+    "name": "User64",
+    "email": "user167@example.com",
+    "age": 29,
+    "active": false,
+    "balance": 903.59,
+    "tags": [
+      "vip",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-12-23",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 14877,
+    "name": "User552",
+    "email": "user258@example.com",
+    "age": 48,
+    "active": true,
+    "balance": 1280.64,
+    "tags": [
+      "premium",
+      "standard",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-03-20",
+      "source": "api"
+    }
+  },
+  {
+    "id": 78096,
+    "name": "User715",
+    "email": "user373@example.com",
+    "age": 22,
+    "active": true,
+    "balance": 258.97,
+    "tags": [
+      "vip",
+      "trial",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-11-04",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 30483,
+    "name": "User792",
+    "email": "user886@example.com",
+    "age": 22,
+    "active": false,
+    "balance": 3197.31,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-02-10",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 24496,
+    "name": "User969",
+    "email": "user560@example.com",
+    "age": 21,
+    "active": false,
+    "balance": 2374.31,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-01-07",
+      "source": "import"
+    }
+  },
+  {
+    "id": 79356,
+    "name": "User108",
+    "email": "user237@example.com",
+    "age": 41,
+    "active": false,
+    "balance": 5778.72,
+    "tags": [
+      "standard",
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-09-18",
+      "source": "import"
+    }
+  },
+  {
+    "id": 37779,
+    "name": "User232",
+    "email": "user463@example.com",
+    "age": 34,
+    "active": true,
+    "balance": 7493.48,
+    "tags": [
+      "premium",
+      "trial",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-11-28",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 45828,
+    "name": "User752",
+    "email": "user635@example.com",
+    "age": 36,
+    "active": true,
+    "balance": 9440.24,
+    "tags": [
+      "vip",
+      "premium",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-08-16",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 71247,
+    "name": "User427",
+    "email": "user236@example.com",
+    "age": 18,
+    "active": false,
+    "balance": 4067.08,
+    "tags": [
+      "basic",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-04-18",
+      "source": "web"
+    }
+  },
+  {
+    "id": 99620,
+    "name": "User415",
+    "email": "user935@example.com",
+    "age": 61,
+    "active": true,
+    "balance": 2666.98,
+    "tags": [
+      "vip",
+      "standard",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-06-05",
+      "source": "import"
+    }
+  },
+  {
+    "id": 70436,
+    "name": "User691",
+    "email": "user604@example.com",
+    "age": 23,
+    "active": false,
+    "balance": 3931.3,
+    "tags": [
+      "trial",
+      "basic",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-03-20",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 4740,
+    "name": "User985",
+    "email": "user387@example.com",
+    "age": 57,
+    "active": false,
+    "balance": 8992.72,
+    "tags": [
+      "trial",
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-01-15",
+      "source": "web"
+    }
+  },
+  {
+    "id": 83641,
+    "name": "User475",
+    "email": "user791@example.com",
+    "age": 27,
+    "active": true,
+    "balance": 740.69,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-08-18",
+      "source": "import"
+    }
+  },
+  {
+    "id": 38860,
+    "name": "User779",
+    "email": "user23@example.com",
+    "age": 62,
+    "active": true,
+    "balance": 9854.68,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-08-15",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 83790,
+    "name": "User911",
+    "email": "user513@example.com",
+    "age": 44,
+    "active": true,
+    "balance": 2871.98,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-10-21",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 36941,
+    "name": "User285",
+    "email": "user139@example.com",
+    "age": 68,
+    "active": false,
+    "balance": 1514.7,
+    "tags": [
+      "basic",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-11-25",
+      "source": "api"
+    }
+  },
+  {
+    "id": 32194,
+    "name": "User733",
+    "email": "user47@example.com",
+    "age": 43,
+    "active": false,
+    "balance": 7470.96,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-03-22",
+      "source": "api"
+    }
+  },
+  {
+    "id": 24077,
+    "name": "User323",
+    "email": "user264@example.com",
+    "age": 45,
+    "active": true,
+    "balance": 8616.81,
+    "tags": [
+      "basic",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-03-03",
+      "source": "import"
+    }
+  },
+  {
+    "id": 44082,
+    "name": "User704",
+    "email": "user421@example.com",
+    "age": 37,
+    "active": true,
+    "balance": 2143.78,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-10-10",
+      "source": "import"
+    }
+  },
+  {
+    "id": 25710,
+    "name": "User947",
+    "email": "user604@example.com",
+    "age": 56,
+    "active": false,
+    "balance": 129.09,
+    "tags": [
+      "trial",
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-06-26",
+      "source": "web"
+    }
+  },
+  {
+    "id": 80610,
+    "name": "User231",
+    "email": "user727@example.com",
+    "age": 75,
+    "active": false,
+    "balance": 8074.92,
+    "tags": [
+      "vip",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-02-15",
+      "source": "api"
+    }
+  },
+  {
+    "id": 95416,
+    "name": "User11",
+    "email": "user148@example.com",
+    "age": 37,
+    "active": true,
+    "balance": 8684.32,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-09-27",
+      "source": "web"
+    }
+  },
+  {
+    "id": 90044,
+    "name": "User261",
+    "email": "user156@example.com",
+    "age": 69,
+    "active": false,
+    "balance": 8755.97,
+    "tags": [
+      "vip",
+      "trial",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-01-19",
+      "source": "api"
+    }
+  },
+  {
+    "id": 41353,
+    "name": "User663",
+    "email": "user277@example.com",
+    "age": 37,
+    "active": false,
+    "balance": 9719.67,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-03-03",
+      "source": "api"
+    }
+  },
+  {
+    "id": 44674,
+    "name": "User996",
+    "email": "user831@example.com",
+    "age": 38,
+    "active": false,
+    "balance": 4179.8,
+    "tags": [
+      "standard",
+      "premium",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-05-16",
+      "source": "import"
+    }
+  },
+  {
+    "id": 21045,
+    "name": "User126",
+    "email": "user18@example.com",
+    "age": 28,
+    "active": true,
+    "balance": 7302.68,
+    "tags": [
+      "basic",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-06-03",
+      "source": "import"
+    }
+  },
+  {
+    "id": 6059,
+    "name": "User472",
+    "email": "user189@example.com",
+    "age": 63,
+    "active": true,
+    "balance": 2596.46,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-11-09",
+      "source": "api"
+    }
+  },
+  {
+    "id": 20228,
+    "name": "User234",
+    "email": "user525@example.com",
+    "age": 77,
+    "active": true,
+    "balance": 4549.27,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-02-17",
+      "source": "web"
+    }
+  },
+  {
+    "id": 19351,
+    "name": "User75",
+    "email": "user718@example.com",
+    "age": 44,
+    "active": true,
+    "balance": 8992.09,
+    "tags": [
+      "vip",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-04-09",
+      "source": "import"
+    }
+  },
+  {
+    "id": 80135,
+    "name": "User771",
+    "email": "user673@example.com",
+    "age": 49,
+    "active": false,
+    "balance": 1340.29,
+    "tags": [
+      "trial",
+      "standard",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-12-20",
+      "source": "web"
+    }
+  },
+  {
+    "id": 46996,
+    "name": "User477",
+    "email": "user261@example.com",
+    "age": 19,
+    "active": true,
+    "balance": 2117.14,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-11-20",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 3778,
+    "name": "User190",
+    "email": "user971@example.com",
+    "age": 42,
+    "active": false,
+    "balance": 294.3,
+    "tags": [
+      "basic",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-03-20",
+      "source": "web"
+    }
+  },
+  {
+    "id": 79704,
+    "name": "User886",
+    "email": "user851@example.com",
+    "age": 46,
+    "active": false,
+    "balance": 3887.84,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-11-27",
+      "source": "web"
+    }
+  },
+  {
+    "id": 95052,
+    "name": "User318",
+    "email": "user801@example.com",
+    "age": 70,
+    "active": false,
+    "balance": 8419.81,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-05-19",
+      "source": "api"
+    }
+  },
+  {
+    "id": 38192,
+    "name": "User858",
+    "email": "user999@example.com",
+    "age": 50,
+    "active": true,
+    "balance": 2908.25,
+    "tags": [
+      "standard",
+      "trial",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-06-04",
+      "source": "api"
+    }
+  },
+  {
+    "id": 91795,
+    "name": "User657",
+    "email": "user555@example.com",
+    "age": 28,
+    "active": true,
+    "balance": 8769.14,
+    "tags": [
+      "basic",
+      "premium",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-09-15",
+      "source": "import"
+    }
+  },
+  {
+    "id": 72349,
+    "name": "User897",
+    "email": "user227@example.com",
+    "age": 40,
+    "active": false,
+    "balance": 827.71,
+    "tags": [
+      "standard",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-10-21",
+      "source": "api"
+    }
+  },
+  {
+    "id": 63555,
+    "name": "User790",
+    "email": "user508@example.com",
+    "age": 78,
+    "active": true,
+    "balance": 7417.94,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-05-22",
+      "source": "import"
+    }
+  },
+  {
+    "id": 30649,
+    "name": "User568",
+    "email": "user239@example.com",
+    "age": 27,
+    "active": false,
+    "balance": 2128.31,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-12-05",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 86181,
+    "name": "User838",
+    "email": "user738@example.com",
+    "age": 42,
+    "active": true,
+    "balance": 3148.98,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-10-27",
+      "source": "import"
+    }
+  },
+  {
+    "id": 57894,
+    "name": "User957",
+    "email": "user646@example.com",
+    "age": 21,
+    "active": false,
+    "balance": 6326.4,
+    "tags": [
+      "trial",
+      "vip",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-10-14",
+      "source": "api"
+    }
+  },
+  {
+    "id": 77130,
+    "name": "User165",
+    "email": "user497@example.com",
+    "age": 57,
+    "active": false,
+    "balance": 4859.99,
+    "tags": [
+      "standard",
+      "premium",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-03-09",
+      "source": "api"
+    }
+  },
+  {
+    "id": 40858,
+    "name": "User915",
+    "email": "user128@example.com",
+    "age": 28,
+    "active": true,
+    "balance": 7155.9,
+    "tags": [
+      "standard",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-08-10",
+      "source": "api"
+    }
+  },
+  {
+    "id": 48885,
+    "name": "User308",
+    "email": "user631@example.com",
+    "age": 77,
+    "active": false,
+    "balance": 7875.79,
+    "tags": [
+      "basic",
+      "vip",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-06-10",
+      "source": "api"
+    }
+  },
+  {
+    "id": 35921,
+    "name": "User735",
+    "email": "user190@example.com",
+    "age": 42,
+    "active": false,
+    "balance": 4320.82,
+    "tags": [
+      "premium",
+      "trial",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-03-08",
+      "source": "api"
+    }
+  },
+  {
+    "id": 83068,
+    "name": "User878",
+    "email": "user518@example.com",
+    "age": 19,
+    "active": false,
+    "balance": 7858.76,
+    "tags": [
+      "standard",
+      "trial",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-02-05",
+      "source": "api"
+    }
+  },
+  {
+    "id": 99225,
+    "name": "User1",
+    "email": "user246@example.com",
+    "age": 18,
+    "active": true,
+    "balance": 7042.21,
+    "tags": [
+      "premium",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-02-18",
+      "source": "web"
+    }
+  },
+  {
+    "id": 63577,
+    "name": "User136",
+    "email": "user913@example.com",
+    "age": 73,
+    "active": true,
+    "balance": 8267.55,
+    "tags": [
+      "premium",
+      "standard",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-12-24",
+      "source": "api"
+    }
+  },
+  {
+    "id": 24483,
+    "name": "User324",
+    "email": "user609@example.com",
+    "age": 80,
+    "active": false,
+    "balance": 7121.16,
+    "tags": [
+      "standard",
+      "vip",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-07-09",
+      "source": "web"
+    }
+  },
+  {
+    "id": 81840,
+    "name": "User988",
+    "email": "user184@example.com",
+    "age": 38,
+    "active": true,
+    "balance": 4132.56,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-05-21",
+      "source": "import"
+    }
+  },
+  {
+    "id": 37666,
+    "name": "User541",
+    "email": "user451@example.com",
+    "age": 46,
+    "active": false,
+    "balance": 1240.24,
+    "tags": [
+      "basic",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-10-06",
+      "source": "web"
+    }
+  },
+  {
+    "id": 15751,
+    "name": "User588",
+    "email": "user827@example.com",
+    "age": 23,
+    "active": true,
+    "balance": 6360.23,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-07-21",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 58220,
+    "name": "User577",
+    "email": "user560@example.com",
+    "age": 69,
+    "active": true,
+    "balance": 8153.99,
+    "tags": [
+      "trial",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-12-09",
+      "source": "import"
+    }
+  },
+  {
+    "id": 70971,
+    "name": "User430",
+    "email": "user581@example.com",
+    "age": 53,
+    "active": true,
+    "balance": 5059.48,
+    "tags": [
+      "premium",
+      "standard",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-02-25",
+      "source": "api"
+    }
+  },
+  {
+    "id": 12195,
+    "name": "User149",
+    "email": "user783@example.com",
+    "age": 47,
+    "active": true,
+    "balance": 8776.0,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-03-24",
+      "source": "api"
+    }
+  },
+  {
+    "id": 37178,
+    "name": "User806",
+    "email": "user983@example.com",
+    "age": 71,
+    "active": true,
+    "balance": 6986.33,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-02-01",
+      "source": "import"
+    }
+  },
+  {
+    "id": 49991,
+    "name": "User128",
+    "email": "user257@example.com",
+    "age": 50,
+    "active": false,
+    "balance": 9524.63,
+    "tags": [
+      "vip",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-03-08",
+      "source": "api"
+    }
+  },
+  {
+    "id": 72887,
+    "name": "User800",
+    "email": "user235@example.com",
+    "age": 45,
+    "active": false,
+    "balance": 7529.23,
+    "tags": [
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-03-27",
+      "source": "web"
+    }
+  },
+  {
+    "id": 55600,
+    "name": "User995",
+    "email": "user207@example.com",
+    "age": 70,
+    "active": true,
+    "balance": 6351.41,
+    "tags": [
+      "trial",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-05-08",
+      "source": "api"
+    }
+  },
+  {
+    "id": 23051,
+    "name": "User207",
+    "email": "user131@example.com",
+    "age": 71,
+    "active": false,
+    "balance": 3692.55,
+    "tags": [
+      "standard",
+      "premium",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-01-26",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 56792,
+    "name": "User133",
+    "email": "user941@example.com",
+    "age": 42,
+    "active": false,
+    "balance": 8664.52,
+    "tags": [
+      "vip",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-06-15",
+      "source": "import"
+    }
+  },
+  {
+    "id": 24974,
+    "name": "User308",
+    "email": "user950@example.com",
+    "age": 65,
+    "active": true,
+    "balance": 4235.92,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-03-27",
+      "source": "api"
+    }
+  },
+  {
+    "id": 37841,
+    "name": "User553",
+    "email": "user896@example.com",
+    "age": 72,
+    "active": false,
+    "balance": 3547.68,
+    "tags": [
+      "standard",
+      "vip",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-08-13",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 82240,
+    "name": "User343",
+    "email": "user435@example.com",
+    "age": 53,
+    "active": false,
+    "balance": 3345.26,
+    "tags": [
+      "vip",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-01-01",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 83404,
+    "name": "User559",
+    "email": "user711@example.com",
+    "age": 61,
+    "active": true,
+    "balance": 7259.4,
+    "tags": [
+      "trial",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-03-02",
+      "source": "api"
+    }
+  },
+  {
+    "id": 61307,
+    "name": "User102",
+    "email": "user940@example.com",
+    "age": 26,
+    "active": false,
+    "balance": 3128.8,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-04-13",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 84823,
+    "name": "User211",
+    "email": "user57@example.com",
+    "age": 56,
+    "active": false,
+    "balance": 9477.75,
+    "tags": [
+      "basic",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-08-15",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 32053,
+    "name": "User383",
+    "email": "user665@example.com",
+    "age": 23,
+    "active": false,
+    "balance": 5653.42,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-09-07",
+      "source": "web"
+    }
+  },
+  {
+    "id": 25776,
+    "name": "User38",
+    "email": "user998@example.com",
+    "age": 41,
+    "active": true,
+    "balance": 9562.71,
+    "tags": [
+      "standard",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-05-06",
+      "source": "import"
+    }
+  },
+  {
+    "id": 68558,
+    "name": "User988",
+    "email": "user498@example.com",
+    "age": 66,
+    "active": false,
+    "balance": 5141.81,
+    "tags": [
+      "premium",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-06-22",
+      "source": "import"
+    }
+  },
+  {
+    "id": 53650,
+    "name": "User738",
+    "email": "user504@example.com",
+    "age": 57,
+    "active": true,
+    "balance": 9234.39,
+    "tags": [
+      "trial",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-06-28",
+      "source": "api"
+    }
+  },
+  {
+    "id": 70188,
+    "name": "User956",
+    "email": "user721@example.com",
+    "age": 52,
+    "active": false,
+    "balance": 1414.28,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-06-22",
+      "source": "import"
+    }
+  },
+  {
+    "id": 94862,
+    "name": "User930",
+    "email": "user926@example.com",
+    "age": 59,
+    "active": false,
+    "balance": 7336.95,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-06-12",
+      "source": "api"
+    }
+  },
+  {
+    "id": 1425,
+    "name": "User379",
+    "email": "user175@example.com",
+    "age": 50,
+    "active": false,
+    "balance": 37.25,
+    "tags": [
+      "vip",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-04-15",
+      "source": "web"
+    }
+  },
+  {
+    "id": 36136,
+    "name": "User164",
+    "email": "user738@example.com",
+    "age": 51,
+    "active": true,
+    "balance": 7948.21,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-11-18",
+      "source": "api"
+    }
+  },
+  {
+    "id": 26301,
+    "name": "User416",
+    "email": "user44@example.com",
+    "age": 47,
+    "active": false,
+    "balance": 8396.47,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-02-24",
+      "source": "web"
+    }
+  },
+  {
+    "id": 54336,
+    "name": "User534",
+    "email": "user445@example.com",
+    "age": 57,
+    "active": true,
+    "balance": 7329.94,
+    "tags": [
+      "basic",
+      "premium",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-05-27",
+      "source": "api"
+    }
+  },
+  {
+    "id": 39782,
+    "name": "User968",
+    "email": "user783@example.com",
+    "age": 28,
+    "active": true,
+    "balance": 600.37,
+    "tags": [
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-04-01",
+      "source": "web"
+    }
+  },
+  {
+    "id": 5372,
+    "name": "User705",
+    "email": "user684@example.com",
+    "age": 46,
+    "active": false,
+    "balance": 8375.55,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-08-22",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 10611,
+    "name": "User155",
+    "email": "user222@example.com",
+    "age": 40,
+    "active": true,
+    "balance": 4054.23,
+    "tags": [
+      "premium",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-06-07",
+      "source": "api"
+    }
+  },
+  {
+    "id": 53768,
+    "name": "User441",
+    "email": "user180@example.com",
+    "age": 63,
+    "active": true,
+    "balance": 1366.09,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-07-27",
+      "source": "api"
+    }
+  },
+  {
+    "id": 80187,
+    "name": "User600",
+    "email": "user292@example.com",
+    "age": 74,
+    "active": false,
+    "balance": 30.53,
+    "tags": [
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-11-16",
+      "source": "api"
+    }
+  },
+  {
+    "id": 17557,
+    "name": "User615",
+    "email": "user119@example.com",
+    "age": 38,
+    "active": true,
+    "balance": 392.3,
+    "tags": [
+      "vip",
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-12-25",
+      "source": "import"
+    }
+  },
+  {
+    "id": 70596,
+    "name": "User1",
+    "email": "user850@example.com",
+    "age": 75,
+    "active": false,
+    "balance": 3543.26,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-08-25",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 36661,
+    "name": "User563",
+    "email": "user878@example.com",
+    "age": 20,
+    "active": false,
+    "balance": 3281.26,
+    "tags": [
+      "vip",
+      "basic",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-08-04",
+      "source": "import"
+    }
+  },
+  {
+    "id": 8702,
+    "name": "User789",
+    "email": "user568@example.com",
+    "age": 32,
+    "active": true,
+    "balance": 1026.89,
+    "tags": [
+      "standard",
+      "basic",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-02-03",
+      "source": "import"
+    }
+  },
+  {
+    "id": 58699,
+    "name": "User906",
+    "email": "user591@example.com",
+    "age": 80,
+    "active": false,
+    "balance": 4834.84,
+    "tags": [
+      "vip",
+      "basic",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-02-07",
+      "source": "api"
+    }
+  },
+  {
+    "id": 75069,
+    "name": "User900",
+    "email": "user434@example.com",
+    "age": 28,
+    "active": false,
+    "balance": 2342.79,
+    "tags": [
+      "vip",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-08-25",
+      "source": "api"
+    }
+  },
+  {
+    "id": 47481,
+    "name": "User295",
+    "email": "user849@example.com",
+    "age": 24,
+    "active": false,
+    "balance": 1472.0,
+    "tags": [
+      "standard",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-12-18",
+      "source": "api"
+    }
+  },
+  {
+    "id": 56806,
+    "name": "User606",
+    "email": "user670@example.com",
+    "age": 58,
+    "active": true,
+    "balance": 1327.23,
+    "tags": [
+      "trial",
+      "standard",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-10-10",
+      "source": "api"
+    }
+  },
+  {
+    "id": 75424,
+    "name": "User152",
+    "email": "user562@example.com",
+    "age": 62,
+    "active": false,
+    "balance": 5209.5,
+    "tags": [
+      "basic",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-06-01",
+      "source": "web"
+    }
+  },
+  {
+    "id": 31390,
+    "name": "User788",
+    "email": "user436@example.com",
+    "age": 75,
+    "active": false,
+    "balance": 1575.81,
+    "tags": [
+      "trial",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-07-09",
+      "source": "import"
+    }
+  },
+  {
+    "id": 21687,
+    "name": "User346",
+    "email": "user364@example.com",
+    "age": 74,
+    "active": true,
+    "balance": 2192.82,
+    "tags": [
+      "trial",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-12-16",
+      "source": "web"
+    }
+  },
+  {
+    "id": 17256,
+    "name": "User666",
+    "email": "user519@example.com",
+    "age": 79,
+    "active": false,
+    "balance": 3094.2,
+    "tags": [
+      "basic",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-09-20",
+      "source": "import"
+    }
+  },
+  {
+    "id": 32056,
+    "name": "User385",
+    "email": "user40@example.com",
+    "age": 21,
+    "active": false,
+    "balance": 6144.34,
+    "tags": [
+      "standard",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-10-08",
+      "source": "api"
+    }
+  },
+  {
+    "id": 41245,
+    "name": "User82",
+    "email": "user480@example.com",
+    "age": 68,
+    "active": true,
+    "balance": 6840.85,
+    "tags": [
+      "premium",
+      "basic",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-12-13",
+      "source": "import"
+    }
+  },
+  {
+    "id": 2402,
+    "name": "User144",
+    "email": "user883@example.com",
+    "age": 66,
+    "active": true,
+    "balance": 8642.26,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-06-20",
+      "source": "api"
+    }
+  },
+  {
+    "id": 18815,
+    "name": "User673",
+    "email": "user538@example.com",
+    "age": 67,
+    "active": false,
+    "balance": 6897.44,
+    "tags": [
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-01-13",
+      "source": "web"
+    }
+  },
+  {
+    "id": 4620,
+    "name": "User965",
+    "email": "user904@example.com",
+    "age": 18,
+    "active": false,
+    "balance": 8144.14,
+    "tags": [
+      "premium",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-08-01",
+      "source": "import"
+    }
+  },
+  {
+    "id": 28945,
+    "name": "User884",
+    "email": "user391@example.com",
+    "age": 75,
+    "active": true,
+    "balance": 8982.14,
+    "tags": [
+      "standard",
+      "trial",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-01-17",
+      "source": "api"
+    }
+  },
+  {
+    "id": 88895,
+    "name": "User838",
+    "email": "user277@example.com",
+    "age": 36,
+    "active": false,
+    "balance": 3593.74,
+    "tags": [
+      "basic",
+      "premium",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-09-07",
+      "source": "import"
+    }
+  },
+  {
+    "id": 57143,
+    "name": "User1",
+    "email": "user311@example.com",
+    "age": 68,
+    "active": true,
+    "balance": 4345.5,
+    "tags": [
+      "vip",
+      "standard",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-10-19",
+      "source": "api"
+    }
+  },
+  {
+    "id": 73895,
+    "name": "User84",
+    "email": "user725@example.com",
+    "age": 30,
+    "active": true,
+    "balance": 7975.17,
+    "tags": [
+      "premium",
+      "trial",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-11-17",
+      "source": "web"
+    }
+  },
+  {
+    "id": 68244,
+    "name": "User286",
+    "email": "user373@example.com",
+    "age": 29,
+    "active": false,
+    "balance": 2131.1,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-10-28",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 67596,
+    "name": "User127",
+    "email": "user269@example.com",
+    "age": 43,
+    "active": true,
+    "balance": 2627.34,
+    "tags": [
+      "vip",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-07-03",
+      "source": "api"
+    }
+  },
+  {
+    "id": 38608,
+    "name": "User416",
+    "email": "user656@example.com",
+    "age": 73,
+    "active": true,
+    "balance": 6340.89,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-05-15",
+      "source": "web"
+    }
+  },
+  {
+    "id": 76853,
+    "name": "User222",
+    "email": "user360@example.com",
+    "age": 68,
+    "active": false,
+    "balance": 6065.9,
+    "tags": [
+      "standard",
+      "premium",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-05-28",
+      "source": "web"
+    }
+  },
+  {
+    "id": 90849,
+    "name": "User236",
+    "email": "user527@example.com",
+    "age": 33,
+    "active": false,
+    "balance": 8172.6,
+    "tags": [
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-12-11",
+      "source": "import"
+    }
+  },
+  {
+    "id": 94079,
+    "name": "User144",
+    "email": "user406@example.com",
+    "age": 18,
+    "active": false,
+    "balance": 8706.01,
+    "tags": [
+      "basic",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-06-17",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 71444,
+    "name": "User404",
+    "email": "user418@example.com",
+    "age": 40,
+    "active": true,
+    "balance": 4101.48,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-06-08",
+      "source": "import"
+    }
+  },
+  {
+    "id": 42824,
+    "name": "User171",
+    "email": "user204@example.com",
+    "age": 54,
+    "active": true,
+    "balance": 6270.9,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-07-07",
+      "source": "api"
+    }
+  },
+  {
+    "id": 34938,
+    "name": "User869",
+    "email": "user886@example.com",
+    "age": 29,
+    "active": false,
+    "balance": 2696.92,
+    "tags": [
+      "premium",
+      "trial",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-04-19",
+      "source": "api"
+    }
+  },
+  {
+    "id": 59805,
+    "name": "User761",
+    "email": "user251@example.com",
+    "age": 48,
+    "active": true,
+    "balance": 6923.98,
+    "tags": [
+      "basic",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-10-13",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 17365,
+    "name": "User167",
+    "email": "user410@example.com",
+    "age": 54,
+    "active": true,
+    "balance": 7151.73,
+    "tags": [
+      "trial",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-03-23",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 72616,
+    "name": "User966",
+    "email": "user587@example.com",
+    "age": 53,
+    "active": true,
+    "balance": 1371.32,
+    "tags": [
+      "vip",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-09-28",
+      "source": "web"
+    }
+  },
+  {
+    "id": 37966,
+    "name": "User16",
+    "email": "user855@example.com",
+    "age": 46,
+    "active": false,
+    "balance": 2501.64,
+    "tags": [
+      "vip",
+      "trial",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-02-25",
+      "source": "import"
+    }
+  },
+  {
+    "id": 40373,
+    "name": "User429",
+    "email": "user535@example.com",
+    "age": 29,
+    "active": true,
+    "balance": 3549.14,
+    "tags": [
+      "vip",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-05-20",
+      "source": "api"
+    }
+  },
+  {
+    "id": 56891,
+    "name": "User437",
+    "email": "user121@example.com",
+    "age": 67,
+    "active": false,
+    "balance": 1391.9,
+    "tags": [
+      "premium",
+      "trial",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-10-04",
+      "source": "api"
+    }
+  },
+  {
+    "id": 56707,
+    "name": "User265",
+    "email": "user646@example.com",
+    "age": 51,
+    "active": false,
+    "balance": 1717.98,
+    "tags": [
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-04-07",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 81522,
+    "name": "User879",
+    "email": "user993@example.com",
+    "age": 26,
+    "active": true,
+    "balance": 6130.25,
+    "tags": [
+      "premium",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-06-09",
+      "source": "web"
+    }
+  },
+  {
+    "id": 5883,
+    "name": "User408",
+    "email": "user176@example.com",
+    "age": 44,
+    "active": true,
+    "balance": 24.88,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-11-08",
+      "source": "web"
+    }
+  },
+  {
+    "id": 69154,
+    "name": "User955",
+    "email": "user752@example.com",
+    "age": 51,
+    "active": true,
+    "balance": 5172.7,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-08-25",
+      "source": "web"
+    }
+  },
+  {
+    "id": 79665,
+    "name": "User485",
+    "email": "user896@example.com",
+    "age": 68,
+    "active": true,
+    "balance": 293.33,
+    "tags": [
+      "vip",
+      "trial",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-07-13",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 36950,
+    "name": "User484",
+    "email": "user707@example.com",
+    "age": 60,
+    "active": true,
+    "balance": 8618.96,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-11-10",
+      "source": "import"
+    }
+  },
+  {
+    "id": 81979,
+    "name": "User614",
+    "email": "user870@example.com",
+    "age": 43,
+    "active": false,
+    "balance": 7712.69,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-12-02",
+      "source": "api"
+    }
+  },
+  {
+    "id": 77455,
+    "name": "User359",
+    "email": "user266@example.com",
+    "age": 30,
+    "active": true,
+    "balance": 3540.84,
+    "tags": [
+      "vip",
+      "premium",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-03-03",
+      "source": "api"
+    }
+  },
+  {
+    "id": 371,
+    "name": "User493",
+    "email": "user183@example.com",
+    "age": 24,
+    "active": true,
+    "balance": 8139.73,
+    "tags": [
+      "vip",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-10-19",
+      "source": "web"
+    }
+  },
+  {
+    "id": 7037,
+    "name": "User171",
+    "email": "user164@example.com",
+    "age": 18,
+    "active": false,
+    "balance": 8340.0,
+    "tags": [
+      "vip",
+      "basic",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-10-06",
+      "source": "web"
+    }
+  },
+  {
+    "id": 26446,
+    "name": "User535",
+    "email": "user635@example.com",
+    "age": 46,
+    "active": false,
+    "balance": 5005.99,
+    "tags": [
+      "trial",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-12-03",
+      "source": "api"
+    }
+  },
+  {
+    "id": 15880,
+    "name": "User573",
+    "email": "user753@example.com",
+    "age": 57,
+    "active": false,
+    "balance": 7045.38,
+    "tags": [
+      "standard",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-07-03",
+      "source": "web"
+    }
+  },
+  {
+    "id": 7723,
+    "name": "User479",
+    "email": "user886@example.com",
+    "age": 80,
+    "active": false,
+    "balance": 150.84,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-11-02",
+      "source": "api"
+    }
+  },
+  {
+    "id": 40763,
+    "name": "User93",
+    "email": "user85@example.com",
+    "age": 78,
+    "active": true,
+    "balance": 7972.71,
+    "tags": [
+      "vip",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-11-15",
+      "source": "web"
+    }
+  },
+  {
+    "id": 97944,
+    "name": "User220",
+    "email": "user823@example.com",
+    "age": 52,
+    "active": true,
+    "balance": 3416.25,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-02-19",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 41071,
+    "name": "User336",
+    "email": "user183@example.com",
+    "age": 33,
+    "active": false,
+    "balance": 9640.95,
+    "tags": [
+      "vip",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-06-28",
+      "source": "import"
+    }
+  },
+  {
+    "id": 28523,
+    "name": "User705",
+    "email": "user454@example.com",
+    "age": 77,
+    "active": true,
+    "balance": 7386.93,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-12-28",
+      "source": "import"
+    }
+  },
+  {
+    "id": 98761,
+    "name": "User179",
+    "email": "user979@example.com",
+    "age": 34,
+    "active": true,
+    "balance": 1793.6,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-04-02",
+      "source": "import"
+    }
+  },
+  {
+    "id": 83255,
+    "name": "User749",
+    "email": "user455@example.com",
+    "age": 29,
+    "active": true,
+    "balance": 6278.94,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-10-04",
+      "source": "import"
+    }
+  },
+  {
+    "id": 22774,
+    "name": "User819",
+    "email": "user742@example.com",
+    "age": 42,
+    "active": false,
+    "balance": 3814.93,
+    "tags": [
+      "vip",
+      "premium",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-09-18",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 12267,
+    "name": "User842",
+    "email": "user363@example.com",
+    "age": 44,
+    "active": true,
+    "balance": 6098.06,
+    "tags": [
+      "standard",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-08-27",
+      "source": "web"
+    }
+  },
+  {
+    "id": 80262,
+    "name": "User91",
+    "email": "user104@example.com",
+    "age": 55,
+    "active": false,
+    "balance": 8557.72,
+    "tags": [
+      "standard",
+      "vip",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-12-27",
+      "source": "api"
+    }
+  },
+  {
+    "id": 79029,
+    "name": "User956",
+    "email": "user871@example.com",
+    "age": 34,
+    "active": true,
+    "balance": 2890.04,
+    "tags": [
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-02-14",
+      "source": "import"
+    }
+  },
+  {
+    "id": 19771,
+    "name": "User435",
+    "email": "user611@example.com",
+    "age": 51,
+    "active": false,
+    "balance": 730.63,
+    "tags": [
+      "premium",
+      "trial",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-11-19",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 24140,
+    "name": "User882",
+    "email": "user275@example.com",
+    "age": 26,
+    "active": false,
+    "balance": 2986.71,
+    "tags": [
+      "premium",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-10-03",
+      "source": "api"
+    }
+  },
+  {
+    "id": 58952,
+    "name": "User767",
+    "email": "user860@example.com",
+    "age": 32,
+    "active": false,
+    "balance": 2853.5,
+    "tags": [
+      "standard",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-10-26",
+      "source": "web"
+    }
+  },
+  {
+    "id": 33730,
+    "name": "User524",
+    "email": "user155@example.com",
+    "age": 26,
+    "active": true,
+    "balance": 6171.16,
+    "tags": [
+      "standard",
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-12-12",
+      "source": "import"
+    }
+  },
+  {
+    "id": 88634,
+    "name": "User280",
+    "email": "user170@example.com",
+    "age": 68,
+    "active": true,
+    "balance": 841.91,
+    "tags": [
+      "premium",
+      "trial",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-06-14",
+      "source": "import"
+    }
+  },
+  {
+    "id": 79717,
+    "name": "User557",
+    "email": "user626@example.com",
+    "age": 68,
+    "active": true,
+    "balance": 1384.39,
+    "tags": [
+      "basic",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-09-11",
+      "source": "web"
+    }
+  },
+  {
+    "id": 95418,
+    "name": "User599",
+    "email": "user379@example.com",
+    "age": 34,
+    "active": true,
+    "balance": 9608.44,
+    "tags": [
+      "vip",
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-12-07",
+      "source": "web"
+    }
+  },
+  {
+    "id": 63499,
+    "name": "User648",
+    "email": "user78@example.com",
+    "age": 36,
+    "active": true,
+    "balance": 9602.33,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-02-11",
+      "source": "api"
+    }
+  },
+  {
+    "id": 74810,
+    "name": "User379",
+    "email": "user196@example.com",
+    "age": 67,
+    "active": false,
+    "balance": 6866.6,
+    "tags": [
+      "vip",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-07-28",
+      "source": "import"
+    }
+  },
+  {
+    "id": 40699,
+    "name": "User541",
+    "email": "user671@example.com",
+    "age": 62,
+    "active": false,
+    "balance": 7492.61,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-05-05",
+      "source": "import"
+    }
+  },
+  {
+    "id": 97367,
+    "name": "User506",
+    "email": "user876@example.com",
+    "age": 45,
+    "active": true,
+    "balance": 1244.82,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-09-04",
+      "source": "import"
+    }
+  },
+  {
+    "id": 73372,
+    "name": "User170",
+    "email": "user992@example.com",
+    "age": 47,
+    "active": true,
+    "balance": 2681.27,
+    "tags": [
+      "trial",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-11-27",
+      "source": "web"
+    }
+  },
+  {
+    "id": 64740,
+    "name": "User842",
+    "email": "user857@example.com",
+    "age": 65,
+    "active": true,
+    "balance": 6696.36,
+    "tags": [
+      "premium",
+      "vip",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-09-09",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 87826,
+    "name": "User701",
+    "email": "user15@example.com",
+    "age": 77,
+    "active": false,
+    "balance": 7289.4,
+    "tags": [
+      "trial",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-09-27",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 26480,
+    "name": "User327",
+    "email": "user610@example.com",
+    "age": 26,
+    "active": false,
+    "balance": 3041.15,
+    "tags": [
+      "basic",
+      "standard",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-04-07",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 12600,
+    "name": "User718",
+    "email": "user803@example.com",
+    "age": 35,
+    "active": true,
+    "balance": 7820.51,
+    "tags": [
+      "standard",
+      "trial",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-08-09",
+      "source": "api"
+    }
+  },
+  {
+    "id": 87188,
+    "name": "User676",
+    "email": "user481@example.com",
+    "age": 30,
+    "active": false,
+    "balance": 3181.83,
+    "tags": [
+      "standard",
+      "premium",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-10-22",
+      "source": "web"
+    }
+  },
+  {
+    "id": 22506,
+    "name": "User531",
+    "email": "user703@example.com",
+    "age": 54,
+    "active": false,
+    "balance": 6082.1,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-04-17",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 1342,
+    "name": "User171",
+    "email": "user808@example.com",
+    "age": 66,
+    "active": false,
+    "balance": 9202.48,
+    "tags": [
+      "vip",
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-09-12",
+      "source": "api"
+    }
+  },
+  {
+    "id": 49513,
+    "name": "User307",
+    "email": "user89@example.com",
+    "age": 56,
+    "active": false,
+    "balance": 7036.04,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-10-09",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 10694,
+    "name": "User4",
+    "email": "user967@example.com",
+    "age": 50,
+    "active": true,
+    "balance": 257.44,
+    "tags": [
+      "standard",
+      "trial",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-08-24",
+      "source": "web"
+    }
+  },
+  {
+    "id": 85418,
+    "name": "User896",
+    "email": "user712@example.com",
+    "age": 72,
+    "active": true,
+    "balance": 2526.71,
+    "tags": [
+      "trial",
+      "vip",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-11-27",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 23114,
+    "name": "User252",
+    "email": "user830@example.com",
+    "age": 54,
+    "active": true,
+    "balance": 2775.19,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-05-15",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 49496,
+    "name": "User212",
+    "email": "user76@example.com",
+    "age": 59,
+    "active": false,
+    "balance": 226.0,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-05-22",
+      "source": "api"
+    }
+  },
+  {
+    "id": 20916,
+    "name": "User159",
+    "email": "user603@example.com",
+    "age": 28,
+    "active": false,
+    "balance": 7671.72,
+    "tags": [
+      "basic",
+      "vip",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-03-28",
+      "source": "api"
+    }
+  },
+  {
+    "id": 59090,
+    "name": "User808",
+    "email": "user251@example.com",
+    "age": 55,
+    "active": true,
+    "balance": 9404.45,
+    "tags": [
+      "standard",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-03-14",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 97237,
+    "name": "User45",
+    "email": "user797@example.com",
+    "age": 54,
+    "active": false,
+    "balance": 5684.25,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-10-04",
+      "source": "import"
+    }
+  },
+  {
+    "id": 92900,
+    "name": "User286",
+    "email": "user556@example.com",
+    "age": 20,
+    "active": false,
+    "balance": 4681.17,
+    "tags": [
+      "vip",
+      "basic",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-08-06",
+      "source": "web"
+    }
+  },
+  {
+    "id": 48800,
+    "name": "User764",
+    "email": "user453@example.com",
+    "age": 23,
+    "active": true,
+    "balance": 6642.02,
+    "tags": [
+      "standard",
+      "vip",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-07-19",
+      "source": "api"
+    }
+  },
+  {
+    "id": 5882,
+    "name": "User113",
+    "email": "user667@example.com",
+    "age": 62,
+    "active": true,
+    "balance": 7579.9,
+    "tags": [
+      "standard",
+      "basic",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-01-27",
+      "source": "api"
+    }
+  },
+  {
+    "id": 45239,
+    "name": "User810",
+    "email": "user860@example.com",
+    "age": 79,
+    "active": false,
+    "balance": 283.08,
+    "tags": [
+      "basic",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-09-11",
+      "source": "import"
+    }
+  },
+  {
+    "id": 64263,
+    "name": "User290",
+    "email": "user955@example.com",
+    "age": 35,
+    "active": false,
+    "balance": 5595.65,
+    "tags": [
+      "vip",
+      "basic",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-03-11",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 684,
+    "name": "User552",
+    "email": "user116@example.com",
+    "age": 28,
+    "active": true,
+    "balance": 8125.28,
+    "tags": [
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-11-18",
+      "source": "api"
+    }
+  },
+  {
+    "id": 68807,
+    "name": "User482",
+    "email": "user244@example.com",
+    "age": 21,
+    "active": false,
+    "balance": 1360.85,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-09-15",
+      "source": "import"
+    }
+  },
+  {
+    "id": 79783,
+    "name": "User945",
+    "email": "user92@example.com",
+    "age": 56,
+    "active": false,
+    "balance": 184.32,
+    "tags": [
+      "trial",
+      "premium",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-03-05",
+      "source": "web"
+    }
+  },
+  {
+    "id": 75528,
+    "name": "User860",
+    "email": "user337@example.com",
+    "age": 49,
+    "active": true,
+    "balance": 3980.99,
+    "tags": [
+      "vip",
+      "trial",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-08-16",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 22541,
+    "name": "User898",
+    "email": "user360@example.com",
+    "age": 58,
+    "active": false,
+    "balance": 8577.62,
+    "tags": [
+      "basic",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-03-26",
+      "source": "web"
+    }
+  },
+  {
+    "id": 38594,
+    "name": "User488",
+    "email": "user975@example.com",
+    "age": 53,
+    "active": true,
+    "balance": 1245.58,
+    "tags": [
+      "basic",
+      "trial",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-02-22",
+      "source": "import"
+    }
+  },
+  {
+    "id": 10478,
+    "name": "User40",
+    "email": "user918@example.com",
+    "age": 68,
+    "active": false,
+    "balance": 4019.22,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-11-27",
+      "source": "web"
+    }
+  },
+  {
+    "id": 7797,
+    "name": "User880",
+    "email": "user200@example.com",
+    "age": 68,
+    "active": false,
+    "balance": 5472.06,
+    "tags": [
+      "trial",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-08-14",
+      "source": "import"
+    }
+  },
+  {
+    "id": 7740,
+    "name": "User757",
+    "email": "user956@example.com",
+    "age": 48,
+    "active": false,
+    "balance": 2884.57,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-08-18",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 24561,
+    "name": "User448",
+    "email": "user354@example.com",
+    "age": 66,
+    "active": false,
+    "balance": 4912.71,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-05-02",
+      "source": "api"
+    }
+  },
+  {
+    "id": 94355,
+    "name": "User905",
+    "email": "user790@example.com",
+    "age": 79,
+    "active": true,
+    "balance": 8313.07,
+    "tags": [
+      "premium",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-05-06",
+      "source": "web"
+    }
+  },
+  {
+    "id": 32076,
+    "name": "User919",
+    "email": "user560@example.com",
+    "age": 32,
+    "active": true,
+    "balance": 1185.85,
+    "tags": [
+      "trial",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-11-11",
+      "source": "web"
+    }
+  },
+  {
+    "id": 56087,
+    "name": "User600",
+    "email": "user329@example.com",
+    "age": 32,
+    "active": true,
+    "balance": 4801.49,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-06-15",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 2025,
+    "name": "User709",
+    "email": "user915@example.com",
+    "age": 62,
+    "active": false,
+    "balance": 5986.71,
+    "tags": [
+      "premium",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-10-07",
+      "source": "api"
+    }
+  },
+  {
+    "id": 90381,
+    "name": "User866",
+    "email": "user33@example.com",
+    "age": 67,
+    "active": true,
+    "balance": 2062.58,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-01-02",
+      "source": "web"
+    }
+  },
+  {
+    "id": 23101,
+    "name": "User969",
+    "email": "user171@example.com",
+    "age": 34,
+    "active": true,
+    "balance": 3718.66,
+    "tags": [
+      "vip",
+      "basic",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-09-21",
+      "source": "api"
+    }
+  },
+  {
+    "id": 170,
+    "name": "User482",
+    "email": "user236@example.com",
+    "age": 28,
+    "active": true,
+    "balance": 9660.37,
+    "tags": [
+      "standard",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-11-11",
+      "source": "web"
+    }
+  },
+  {
+    "id": 53651,
+    "name": "User158",
+    "email": "user834@example.com",
+    "age": 25,
+    "active": true,
+    "balance": 2752.85,
+    "tags": [
+      "basic",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-11-08",
+      "source": "api"
+    }
+  },
+  {
+    "id": 7974,
+    "name": "User440",
+    "email": "user319@example.com",
+    "age": 67,
+    "active": false,
+    "balance": 8916.41,
+    "tags": [
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-12-10",
+      "source": "web"
+    }
+  },
+  {
+    "id": 912,
+    "name": "User351",
+    "email": "user270@example.com",
+    "age": 67,
+    "active": false,
+    "balance": 3175.06,
+    "tags": [
+      "premium",
+      "trial",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-08-21",
+      "source": "api"
+    }
+  },
+  {
+    "id": 98769,
+    "name": "User705",
+    "email": "user633@example.com",
+    "age": 77,
+    "active": false,
+    "balance": 4999.86,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-01-24",
+      "source": "import"
+    }
+  },
+  {
+    "id": 5993,
+    "name": "User166",
+    "email": "user627@example.com",
+    "age": 69,
+    "active": true,
+    "balance": 8870.91,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-03-14",
+      "source": "web"
+    }
+  },
+  {
+    "id": 28420,
+    "name": "User126",
+    "email": "user13@example.com",
+    "age": 44,
+    "active": false,
+    "balance": 2222.46,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-03-06",
+      "source": "web"
+    }
+  },
+  {
+    "id": 95002,
+    "name": "User841",
+    "email": "user584@example.com",
+    "age": 28,
+    "active": true,
+    "balance": 6156.44,
+    "tags": [
+      "vip",
+      "trial",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-06-03",
+      "source": "web"
+    }
+  },
+  {
+    "id": 99942,
+    "name": "User55",
+    "email": "user879@example.com",
+    "age": 26,
+    "active": false,
+    "balance": 539.15,
+    "tags": [
+      "trial",
+      "vip",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-08-13",
+      "source": "api"
+    }
+  },
+  {
+    "id": 64169,
+    "name": "User268",
+    "email": "user835@example.com",
+    "age": 52,
+    "active": true,
+    "balance": 8756.91,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-02-25",
+      "source": "import"
+    }
+  },
+  {
+    "id": 20155,
+    "name": "User49",
+    "email": "user47@example.com",
+    "age": 62,
+    "active": false,
+    "balance": 2232.85,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-06-20",
+      "source": "web"
+    }
+  },
+  {
+    "id": 4588,
+    "name": "User746",
+    "email": "user413@example.com",
+    "age": 72,
+    "active": false,
+    "balance": 5862.27,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-07-06",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 7415,
+    "name": "User542",
+    "email": "user909@example.com",
+    "age": 57,
+    "active": true,
+    "balance": 5898.24,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-11-13",
+      "source": "api"
+    }
+  },
+  {
+    "id": 24351,
+    "name": "User354",
+    "email": "user374@example.com",
+    "age": 69,
+    "active": false,
+    "balance": 9626.35,
+    "tags": [
+      "standard",
+      "vip",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-05-20",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 40833,
+    "name": "User647",
+    "email": "user111@example.com",
+    "age": 79,
+    "active": false,
+    "balance": 9300.89,
+    "tags": [
+      "basic",
+      "premium",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-02-04",
+      "source": "api"
+    }
+  },
+  {
+    "id": 28154,
+    "name": "User777",
+    "email": "user305@example.com",
+    "age": 64,
+    "active": true,
+    "balance": 1276.22,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-02-24",
+      "source": "import"
+    }
+  },
+  {
+    "id": 41899,
+    "name": "User657",
+    "email": "user248@example.com",
+    "age": 22,
+    "active": true,
+    "balance": 1166.16,
+    "tags": [
+      "standard",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-03-15",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 64332,
+    "name": "User340",
+    "email": "user257@example.com",
+    "age": 29,
+    "active": true,
+    "balance": 5726.52,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-01-03",
+      "source": "api"
+    }
+  },
+  {
+    "id": 55393,
+    "name": "User220",
+    "email": "user181@example.com",
+    "age": 41,
+    "active": true,
+    "balance": 7407.61,
+    "tags": [
+      "basic",
+      "trial",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-01-10",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 68090,
+    "name": "User409",
+    "email": "user975@example.com",
+    "age": 63,
+    "active": true,
+    "balance": 1887.31,
+    "tags": [
+      "premium",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-04-28",
+      "source": "api"
+    }
+  },
+  {
+    "id": 93977,
+    "name": "User739",
+    "email": "user504@example.com",
+    "age": 25,
+    "active": true,
+    "balance": 2473.17,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-02-01",
+      "source": "import"
+    }
+  },
+  {
+    "id": 4355,
+    "name": "User193",
+    "email": "user755@example.com",
+    "age": 44,
+    "active": false,
+    "balance": 3503.55,
+    "tags": [
+      "standard",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-10-26",
+      "source": "import"
+    }
+  },
+  {
+    "id": 67978,
+    "name": "User248",
+    "email": "user507@example.com",
+    "age": 68,
+    "active": true,
+    "balance": 1144.99,
+    "tags": [
+      "vip",
+      "trial",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-06-22",
+      "source": "web"
+    }
+  },
+  {
+    "id": 20274,
+    "name": "User405",
+    "email": "user545@example.com",
+    "age": 53,
+    "active": true,
+    "balance": 9379.23,
+    "tags": [
+      "vip",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-12-17",
+      "source": "web"
+    }
+  },
+  {
+    "id": 46611,
+    "name": "User300",
+    "email": "user97@example.com",
+    "age": 23,
+    "active": true,
+    "balance": 6547.68,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-03-25",
+      "source": "web"
+    }
+  },
+  {
+    "id": 30004,
+    "name": "User183",
+    "email": "user163@example.com",
+    "age": 38,
+    "active": true,
+    "balance": 2370.78,
+    "tags": [
+      "premium",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-05-03",
+      "source": "import"
+    }
+  },
+  {
+    "id": 63641,
+    "name": "User585",
+    "email": "user914@example.com",
+    "age": 56,
+    "active": false,
+    "balance": 9102.96,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-04-24",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 93939,
+    "name": "User540",
+    "email": "user175@example.com",
+    "age": 36,
+    "active": true,
+    "balance": 1997.86,
+    "tags": [
+      "premium",
+      "vip",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-12-21",
+      "source": "import"
+    }
+  },
+  {
+    "id": 76814,
+    "name": "User650",
+    "email": "user367@example.com",
+    "age": 34,
+    "active": false,
+    "balance": 9404.68,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-10-26",
+      "source": "web"
+    }
+  },
+  {
+    "id": 35343,
+    "name": "User717",
+    "email": "user42@example.com",
+    "age": 40,
+    "active": false,
+    "balance": 1088.53,
+    "tags": [
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-10-14",
+      "source": "import"
+    }
+  },
+  {
+    "id": 64253,
+    "name": "User717",
+    "email": "user9@example.com",
+    "age": 34,
+    "active": false,
+    "balance": 5617.92,
+    "tags": [
+      "vip",
+      "premium",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-07-24",
+      "source": "web"
+    }
+  },
+  {
+    "id": 50850,
+    "name": "User248",
+    "email": "user855@example.com",
+    "age": 27,
+    "active": true,
+    "balance": 800.76,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-08-20",
+      "source": "web"
+    }
+  },
+  {
+    "id": 57009,
+    "name": "User710",
+    "email": "user629@example.com",
+    "age": 53,
+    "active": true,
+    "balance": 8887.11,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-06-15",
+      "source": "import"
+    }
+  },
+  {
+    "id": 31062,
+    "name": "User258",
+    "email": "user139@example.com",
+    "age": 40,
+    "active": true,
+    "balance": 3326.74,
+    "tags": [
+      "trial",
+      "vip",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-08-08",
+      "source": "import"
+    }
+  },
+  {
+    "id": 11430,
+    "name": "User808",
+    "email": "user258@example.com",
+    "age": 74,
+    "active": true,
+    "balance": 2302.28,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-02-18",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 1316,
+    "name": "User735",
+    "email": "user714@example.com",
+    "age": 79,
+    "active": false,
+    "balance": 4708.97,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-09-16",
+      "source": "api"
+    }
+  },
+  {
+    "id": 61244,
+    "name": "User604",
+    "email": "user267@example.com",
+    "age": 71,
+    "active": false,
+    "balance": 4040.33,
+    "tags": [
+      "trial",
+      "standard",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-06-06",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 36559,
+    "name": "User463",
+    "email": "user447@example.com",
+    "age": 23,
+    "active": false,
+    "balance": 5006.72,
+    "tags": [
+      "basic",
+      "standard",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-03-08",
+      "source": "api"
+    }
+  },
+  {
+    "id": 10226,
+    "name": "User180",
+    "email": "user350@example.com",
+    "age": 52,
+    "active": true,
+    "balance": 1948.42,
+    "tags": [
+      "premium",
+      "trial",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-07-24",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 2058,
+    "name": "User169",
+    "email": "user818@example.com",
+    "age": 19,
+    "active": true,
+    "balance": 5207.06,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-07-18",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 65862,
+    "name": "User111",
+    "email": "user335@example.com",
+    "age": 32,
+    "active": false,
+    "balance": 3841.08,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-05-23",
+      "source": "web"
+    }
+  },
+  {
+    "id": 94073,
+    "name": "User508",
+    "email": "user181@example.com",
+    "age": 59,
+    "active": true,
+    "balance": 4675.95,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-08-06",
+      "source": "web"
+    }
+  },
+  {
+    "id": 83154,
+    "name": "User154",
+    "email": "user665@example.com",
+    "age": 28,
+    "active": false,
+    "balance": 6172.17,
+    "tags": [
+      "trial",
+      "standard",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-09-25",
+      "source": "web"
+    }
+  },
+  {
+    "id": 41751,
+    "name": "User184",
+    "email": "user897@example.com",
+    "age": 54,
+    "active": false,
+    "balance": 4744.2,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-10-27",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 65118,
+    "name": "User239",
+    "email": "user5@example.com",
+    "age": 78,
+    "active": true,
+    "balance": 9347.65,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-02-26",
+      "source": "api"
+    }
+  },
+  {
+    "id": 67633,
+    "name": "User934",
+    "email": "user4@example.com",
+    "age": 33,
+    "active": false,
+    "balance": 3025.3,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-05-13",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 99652,
+    "name": "User161",
+    "email": "user264@example.com",
+    "age": 26,
+    "active": true,
+    "balance": 2240.47,
+    "tags": [
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-03-14",
+      "source": "api"
+    }
+  },
+  {
+    "id": 14168,
+    "name": "User748",
+    "email": "user255@example.com",
+    "age": 55,
+    "active": true,
+    "balance": 2800.95,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-02-12",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 43142,
+    "name": "User564",
+    "email": "user199@example.com",
+    "age": 32,
+    "active": false,
+    "balance": 421.99,
+    "tags": [
+      "basic",
+      "standard",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-11-28",
+      "source": "api"
+    }
+  },
+  {
+    "id": 74234,
+    "name": "User335",
+    "email": "user643@example.com",
+    "age": 79,
+    "active": false,
+    "balance": 4819.17,
+    "tags": [
+      "vip",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-05-17",
+      "source": "import"
+    }
+  },
+  {
+    "id": 77609,
+    "name": "User783",
+    "email": "user449@example.com",
+    "age": 46,
+    "active": true,
+    "balance": 5425.03,
+    "tags": [
+      "premium",
+      "basic",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-09-11",
+      "source": "web"
+    }
+  },
+  {
+    "id": 92217,
+    "name": "User337",
+    "email": "user925@example.com",
+    "age": 67,
+    "active": true,
+    "balance": 463.18,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-03-21",
+      "source": "api"
+    }
+  },
+  {
+    "id": 68055,
+    "name": "User662",
+    "email": "user468@example.com",
+    "age": 80,
+    "active": true,
+    "balance": 3604.36,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-12-07",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 74911,
+    "name": "User982",
+    "email": "user912@example.com",
+    "age": 62,
+    "active": true,
+    "balance": 1123.85,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-09-13",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 49303,
+    "name": "User537",
+    "email": "user424@example.com",
+    "age": 54,
+    "active": false,
+    "balance": 708.47,
+    "tags": [
+      "standard",
+      "vip",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-10-02",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 82501,
+    "name": "User160",
+    "email": "user634@example.com",
+    "age": 55,
+    "active": true,
+    "balance": 3716.34,
+    "tags": [
+      "vip",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-06-21",
+      "source": "api"
+    }
+  },
+  {
+    "id": 7884,
+    "name": "User610",
+    "email": "user348@example.com",
+    "age": 32,
+    "active": false,
+    "balance": 4589.13,
+    "tags": [
+      "premium",
+      "basic",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-05-08",
+      "source": "api"
+    }
+  },
+  {
+    "id": 1000,
+    "name": "User591",
+    "email": "user563@example.com",
+    "age": 43,
+    "active": true,
+    "balance": 9045.45,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-02-24",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 16854,
+    "name": "User267",
+    "email": "user373@example.com",
+    "age": 71,
+    "active": true,
+    "balance": 2895.98,
+    "tags": [
+      "premium",
+      "trial",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-03-28",
+      "source": "import"
+    }
+  },
+  {
+    "id": 25172,
+    "name": "User449",
+    "email": "user25@example.com",
+    "age": 54,
+    "active": true,
+    "balance": 4196.76,
+    "tags": [
+      "standard",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-09-13",
+      "source": "web"
+    }
+  },
+  {
+    "id": 30191,
+    "name": "User175",
+    "email": "user86@example.com",
+    "age": 33,
+    "active": false,
+    "balance": 211.76,
+    "tags": [
+      "basic",
+      "premium",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-04-15",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 13580,
+    "name": "User810",
+    "email": "user956@example.com",
+    "age": 49,
+    "active": false,
+    "balance": 4255.21,
+    "tags": [
+      "standard",
+      "vip",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-04-18",
+      "source": "web"
+    }
+  },
+  {
+    "id": 93259,
+    "name": "User548",
+    "email": "user455@example.com",
+    "age": 61,
+    "active": true,
+    "balance": 2596.34,
+    "tags": [
+      "basic",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-04-05",
+      "source": "web"
+    }
+  },
+  {
+    "id": 66692,
+    "name": "User77",
+    "email": "user307@example.com",
+    "age": 25,
+    "active": false,
+    "balance": 2169.26,
+    "tags": [
+      "vip",
+      "trial",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-07-26",
+      "source": "import"
+    }
+  },
+  {
+    "id": 31008,
+    "name": "User162",
+    "email": "user969@example.com",
+    "age": 61,
+    "active": false,
+    "balance": 8221.08,
+    "tags": [
+      "basic",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-04-20",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 55448,
+    "name": "User302",
+    "email": "user646@example.com",
+    "age": 23,
+    "active": true,
+    "balance": 3817.1,
+    "tags": [
+      "trial",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-06-21",
+      "source": "import"
+    }
+  },
+  {
+    "id": 61783,
+    "name": "User66",
+    "email": "user656@example.com",
+    "age": 75,
+    "active": false,
+    "balance": 6006.98,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-10-05",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 36938,
+    "name": "User577",
+    "email": "user284@example.com",
+    "age": 80,
+    "active": true,
+    "balance": 6053.36,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-08-07",
+      "source": "api"
+    }
+  },
+  {
+    "id": 2649,
+    "name": "User494",
+    "email": "user449@example.com",
+    "age": 62,
+    "active": true,
+    "balance": 8891.71,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-11-06",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 28565,
+    "name": "User147",
+    "email": "user505@example.com",
+    "age": 29,
+    "active": false,
+    "balance": 9627.38,
+    "tags": [
+      "premium",
+      "standard",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-12-10",
+      "source": "api"
+    }
+  },
+  {
+    "id": 88220,
+    "name": "User688",
+    "email": "user6@example.com",
+    "age": 47,
+    "active": false,
+    "balance": 484.99,
+    "tags": [
+      "premium",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-01-06",
+      "source": "import"
+    }
+  },
+  {
+    "id": 74764,
+    "name": "User110",
+    "email": "user933@example.com",
+    "age": 19,
+    "active": false,
+    "balance": 7874.4,
+    "tags": [
+      "premium",
+      "standard",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-11-10",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 44164,
+    "name": "User686",
+    "email": "user744@example.com",
+    "age": 28,
+    "active": false,
+    "balance": 9838.8,
+    "tags": [
+      "vip",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-03-09",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 70670,
+    "name": "User295",
+    "email": "user204@example.com",
+    "age": 22,
+    "active": true,
+    "balance": 7257.16,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-10-23",
+      "source": "api"
+    }
+  },
+  {
+    "id": 25790,
+    "name": "User952",
+    "email": "user324@example.com",
+    "age": 35,
+    "active": false,
+    "balance": 8506.35,
+    "tags": [
+      "basic",
+      "premium",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-11-03",
+      "source": "api"
+    }
+  },
+  {
+    "id": 39485,
+    "name": "User272",
+    "email": "user534@example.com",
+    "age": 70,
+    "active": true,
+    "balance": 9053.84,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-10-27",
+      "source": "api"
+    }
+  },
+  {
+    "id": 17214,
+    "name": "User380",
+    "email": "user96@example.com",
+    "age": 48,
+    "active": false,
+    "balance": 9080.5,
+    "tags": [
+      "trial",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-08-01",
+      "source": "import"
+    }
+  },
+  {
+    "id": 21063,
+    "name": "User12",
+    "email": "user833@example.com",
+    "age": 79,
+    "active": true,
+    "balance": 6662.32,
+    "tags": [
+      "premium",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-08-26",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 72103,
+    "name": "User592",
+    "email": "user250@example.com",
+    "age": 70,
+    "active": true,
+    "balance": 1399.55,
+    "tags": [
+      "standard",
+      "premium",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-04-04",
+      "source": "web"
+    }
+  },
+  {
+    "id": 54171,
+    "name": "User117",
+    "email": "user926@example.com",
+    "age": 78,
+    "active": true,
+    "balance": 5198.2,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-05-06",
+      "source": "api"
+    }
+  },
+  {
+    "id": 14682,
+    "name": "User412",
+    "email": "user526@example.com",
+    "age": 32,
+    "active": true,
+    "balance": 7840.86,
+    "tags": [
+      "premium",
+      "standard",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-02-02",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 12371,
+    "name": "User445",
+    "email": "user941@example.com",
+    "age": 50,
+    "active": false,
+    "balance": 7006.45,
+    "tags": [
+      "basic",
+      "trial",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-07-06",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 5195,
+    "name": "User630",
+    "email": "user750@example.com",
+    "age": 52,
+    "active": false,
+    "balance": 8491.75,
+    "tags": [
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-10-08",
+      "source": "import"
+    }
+  },
+  {
+    "id": 71368,
+    "name": "User706",
+    "email": "user30@example.com",
+    "age": 52,
+    "active": false,
+    "balance": 5311.39,
+    "tags": [
+      "standard",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-04-16",
+      "source": "api"
+    }
+  },
+  {
+    "id": 36151,
+    "name": "User607",
+    "email": "user215@example.com",
+    "age": 57,
+    "active": true,
+    "balance": 1975.75,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-03-16",
+      "source": "import"
+    }
+  },
+  {
+    "id": 33043,
+    "name": "User805",
+    "email": "user346@example.com",
+    "age": 58,
+    "active": true,
+    "balance": 8224.53,
+    "tags": [
+      "trial",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-08-17",
+      "source": "web"
+    }
+  },
+  {
+    "id": 58974,
+    "name": "User385",
+    "email": "user876@example.com",
+    "age": 65,
+    "active": false,
+    "balance": 2469.09,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-01-14",
+      "source": "import"
+    }
+  },
+  {
+    "id": 20272,
+    "name": "User23",
+    "email": "user870@example.com",
+    "age": 53,
+    "active": true,
+    "balance": 8753.98,
+    "tags": [
+      "standard",
+      "vip",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-11-01",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 76321,
+    "name": "User282",
+    "email": "user556@example.com",
+    "age": 35,
+    "active": false,
+    "balance": 1714.58,
+    "tags": [
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-08-21",
+      "source": "import"
+    }
+  },
+  {
+    "id": 71049,
+    "name": "User446",
+    "email": "user301@example.com",
+    "age": 23,
+    "active": true,
+    "balance": 1508.5,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-12-21",
+      "source": "api"
+    }
+  },
+  {
+    "id": 63056,
+    "name": "User159",
+    "email": "user693@example.com",
+    "age": 46,
+    "active": true,
+    "balance": 6369.83,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-05-13",
+      "source": "api"
+    }
+  },
+  {
+    "id": 57660,
+    "name": "User980",
+    "email": "user835@example.com",
+    "age": 42,
+    "active": false,
+    "balance": 2425.9,
+    "tags": [
+      "basic",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-07-25",
+      "source": "web"
+    }
+  },
+  {
+    "id": 29277,
+    "name": "User947",
+    "email": "user225@example.com",
+    "age": 33,
+    "active": false,
+    "balance": 9939.3,
+    "tags": [
+      "vip",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-06-22",
+      "source": "web"
+    }
+  },
+  {
+    "id": 16304,
+    "name": "User953",
+    "email": "user325@example.com",
+    "age": 79,
+    "active": false,
+    "balance": 5346.18,
+    "tags": [
+      "basic",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-09-25",
+      "source": "api"
+    }
+  },
+  {
+    "id": 90034,
+    "name": "User217",
+    "email": "user432@example.com",
+    "age": 58,
+    "active": true,
+    "balance": 6254.35,
+    "tags": [
+      "premium",
+      "basic",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-01-19",
+      "source": "web"
+    }
+  },
+  {
+    "id": 31478,
+    "name": "User292",
+    "email": "user231@example.com",
+    "age": 33,
+    "active": false,
+    "balance": 8060.85,
+    "tags": [
+      "premium",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-06-09",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 77990,
+    "name": "User205",
+    "email": "user918@example.com",
+    "age": 28,
+    "active": true,
+    "balance": 5842.88,
+    "tags": [
+      "basic",
+      "vip",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-08-22",
+      "source": "import"
+    }
+  },
+  {
+    "id": 53015,
+    "name": "User887",
+    "email": "user49@example.com",
+    "age": 54,
+    "active": false,
+    "balance": 9941.18,
+    "tags": [
+      "premium",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-04-19",
+      "source": "web"
+    }
+  },
+  {
+    "id": 59816,
+    "name": "User680",
+    "email": "user65@example.com",
+    "age": 57,
+    "active": false,
+    "balance": 2654.8,
+    "tags": [
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-07-02",
+      "source": "import"
+    }
+  },
+  {
+    "id": 52004,
+    "name": "User424",
+    "email": "user206@example.com",
+    "age": 76,
+    "active": true,
+    "balance": 7572.92,
+    "tags": [
+      "trial",
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-09-18",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 51438,
+    "name": "User23",
+    "email": "user180@example.com",
+    "age": 51,
+    "active": true,
+    "balance": 9736.85,
+    "tags": [
+      "standard",
+      "basic",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-05-10",
+      "source": "api"
+    }
+  },
+  {
+    "id": 75878,
+    "name": "User351",
+    "email": "user901@example.com",
+    "age": 59,
+    "active": true,
+    "balance": 7538.29,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-08-16",
+      "source": "import"
+    }
+  },
+  {
+    "id": 97048,
+    "name": "User638",
+    "email": "user513@example.com",
+    "age": 58,
+    "active": true,
+    "balance": 4385.23,
+    "tags": [
+      "standard",
+      "basic",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-09-05",
+      "source": "web"
+    }
+  },
+  {
+    "id": 77296,
+    "name": "User585",
+    "email": "user664@example.com",
+    "age": 36,
+    "active": true,
+    "balance": 8979.08,
+    "tags": [
+      "trial",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-09-01",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 20632,
+    "name": "User625",
+    "email": "user928@example.com",
+    "age": 44,
+    "active": true,
+    "balance": 8868.34,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-01-12",
+      "source": "api"
+    }
+  },
+  {
+    "id": 30191,
+    "name": "User107",
+    "email": "user933@example.com",
+    "age": 41,
+    "active": true,
+    "balance": 2794.47,
+    "tags": [
+      "vip",
+      "premium",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-08-12",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 47552,
+    "name": "User42",
+    "email": "user931@example.com",
+    "age": 29,
+    "active": false,
+    "balance": 6321.01,
+    "tags": [
+      "trial",
+      "basic",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-09-04",
+      "source": "api"
+    }
+  },
+  {
+    "id": 98338,
+    "name": "User389",
+    "email": "user828@example.com",
+    "age": 25,
+    "active": false,
+    "balance": 1371.02,
+    "tags": [
+      "premium",
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-11-21",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 9891,
+    "name": "User946",
+    "email": "user695@example.com",
+    "age": 18,
+    "active": false,
+    "balance": 8315.34,
+    "tags": [
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-05-21",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 958,
+    "name": "User171",
+    "email": "user791@example.com",
+    "age": 42,
+    "active": true,
+    "balance": 5709.57,
+    "tags": [
+      "premium",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-04-24",
+      "source": "web"
+    }
+  },
+  {
+    "id": 85493,
+    "name": "User560",
+    "email": "user251@example.com",
+    "age": 38,
+    "active": false,
+    "balance": 4377.76,
+    "tags": [
+      "premium",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-07-07",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 51118,
+    "name": "User486",
+    "email": "user696@example.com",
+    "age": 52,
+    "active": true,
+    "balance": 910.92,
+    "tags": [
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-08-28",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 42547,
+    "name": "User838",
+    "email": "user811@example.com",
+    "age": 80,
+    "active": true,
+    "balance": 4574.82,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-11-08",
+      "source": "web"
+    }
+  },
+  {
+    "id": 34623,
+    "name": "User414",
+    "email": "user84@example.com",
+    "age": 45,
+    "active": false,
+    "balance": 6505.27,
+    "tags": [
+      "trial",
+      "vip",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-07-17",
+      "source": "web"
+    }
+  },
+  {
+    "id": 11933,
+    "name": "User978",
+    "email": "user843@example.com",
+    "age": 52,
+    "active": false,
+    "balance": 9929.19,
+    "tags": [
+      "standard",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-12-14",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 98655,
+    "name": "User812",
+    "email": "user172@example.com",
+    "age": 57,
+    "active": false,
+    "balance": 9297.3,
+    "tags": [
+      "premium",
+      "basic",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-09-01",
+      "source": "web"
+    }
+  },
+  {
+    "id": 40959,
+    "name": "User189",
+    "email": "user594@example.com",
+    "age": 50,
+    "active": false,
+    "balance": 1211.67,
+    "tags": [
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-12-10",
+      "source": "import"
+    }
+  },
+  {
+    "id": 62204,
+    "name": "User173",
+    "email": "user970@example.com",
+    "age": 59,
+    "active": true,
+    "balance": 8105.35,
+    "tags": [
+      "trial",
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-06-11",
+      "source": "web"
+    }
+  },
+  {
+    "id": 995,
+    "name": "User795",
+    "email": "user461@example.com",
+    "age": 68,
+    "active": false,
+    "balance": 3838.48,
+    "tags": [
+      "vip",
+      "standard",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-08-27",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 87816,
+    "name": "User575",
+    "email": "user265@example.com",
+    "age": 58,
+    "active": false,
+    "balance": 52.4,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-07-05",
+      "source": "web"
+    }
+  },
+  {
+    "id": 26710,
+    "name": "User907",
+    "email": "user194@example.com",
+    "age": 52,
+    "active": false,
+    "balance": 4080.76,
+    "tags": [
+      "vip",
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-06-24",
+      "source": "web"
+    }
+  },
+  {
+    "id": 70836,
+    "name": "User879",
+    "email": "user948@example.com",
+    "age": 22,
+    "active": true,
+    "balance": 4584.46,
+    "tags": [
+      "standard",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-09-20",
+      "source": "api"
+    }
+  },
+  {
+    "id": 64315,
+    "name": "User55",
+    "email": "user437@example.com",
+    "age": 60,
+    "active": false,
+    "balance": 3834.2,
+    "tags": [
+      "premium",
+      "basic"
+    ],
+    "metadata": {
+      "created": "2023-10-27",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 32968,
+    "name": "User297",
+    "email": "user34@example.com",
+    "age": 58,
+    "active": false,
+    "balance": 254.88,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-01-04",
+      "source": "import"
+    }
+  },
+  {
+    "id": 45337,
+    "name": "User811",
+    "email": "user871@example.com",
+    "age": 19,
+    "active": false,
+    "balance": 3710.2,
+    "tags": [
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-01-08",
+      "source": "import"
+    }
+  },
+  {
+    "id": 67629,
+    "name": "User512",
+    "email": "user862@example.com",
+    "age": 77,
+    "active": true,
+    "balance": 1799.48,
+    "tags": [
+      "basic",
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-10-11",
+      "source": "import"
+    }
+  },
+  {
+    "id": 76128,
+    "name": "User223",
+    "email": "user506@example.com",
+    "age": 47,
+    "active": false,
+    "balance": 9448.43,
+    "tags": [
+      "vip",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-09-09",
+      "source": "api"
+    }
+  },
+  {
+    "id": 83941,
+    "name": "User552",
+    "email": "user624@example.com",
+    "age": 78,
+    "active": true,
+    "balance": 9540.74,
+    "tags": [
+      "basic",
+      "trial",
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-05-01",
+      "source": "import"
+    }
+  },
+  {
+    "id": 60292,
+    "name": "User913",
+    "email": "user160@example.com",
+    "age": 31,
+    "active": true,
+    "balance": 5694.94,
+    "tags": [
+      "standard",
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-12-15",
+      "source": "import"
+    }
+  },
+  {
+    "id": 6871,
+    "name": "User215",
+    "email": "user748@example.com",
+    "age": 72,
+    "active": true,
+    "balance": 9576.74,
+    "tags": [
+      "trial",
+      "standard",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-09-06",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 58480,
+    "name": "User31",
+    "email": "user847@example.com",
+    "age": 25,
+    "active": false,
+    "balance": 237.2,
+    "tags": [
+      "basic",
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-04-18",
+      "source": "web"
+    }
+  },
+  {
+    "id": 25627,
+    "name": "User885",
+    "email": "user274@example.com",
+    "age": 64,
+    "active": false,
+    "balance": 719.81,
+    "tags": [
+      "vip"
+    ],
+    "metadata": {
+      "created": "2023-02-14",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 49093,
+    "name": "User354",
+    "email": "user113@example.com",
+    "age": 67,
+    "active": false,
+    "balance": 9565.42,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-03-09",
+      "source": "import"
+    }
+  },
+  {
+    "id": 92031,
+    "name": "User75",
+    "email": "user571@example.com",
+    "age": 50,
+    "active": true,
+    "balance": 908.96,
+    "tags": [
+      "premium"
+    ],
+    "metadata": {
+      "created": "2023-09-18",
+      "source": "api"
+    }
+  },
+  {
+    "id": 56168,
+    "name": "User253",
+    "email": "user228@example.com",
+    "age": 77,
+    "active": false,
+    "balance": 1540.27,
+    "tags": [
+      "standard"
+    ],
+    "metadata": {
+      "created": "2023-06-18",
+      "source": "mobile"
+    }
+  },
+  {
+    "id": 17166,
+    "name": "User59",
+    "email": "user167@example.com",
+    "age": 31,
+    "active": false,
+    "balance": 2271.45,
+    "tags": [
+      "standard",
+      "basic",
+      "trial"
+    ],
+    "metadata": {
+      "created": "2023-12-26",
+      "source": "web"
+    }
+  },
+  {
+    "id": 18975,
+    "name": "User290",
+  

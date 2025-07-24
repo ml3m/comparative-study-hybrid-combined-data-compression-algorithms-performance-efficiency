@@ -1,0 +1,1 @@
+This is test data for aerospace-grade compression analysis with some repeated patterns AAAAAABBBBBBCCCCCCDDDDDD
