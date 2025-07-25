@@ -32,7 +32,7 @@ type AveragedCompressionResult struct {
 	MaxThroughputMBPS   float64 `json:"max_throughput_mbps"`
 
 	// Averaged precision metrics
-	AvgPrecisionMetrics AerospacePrecisionMetrics `json:"avg_precision_metrics"`
+	AvgPrecisionMetrics StatisticalPrecisionMetrics `json:"avg_precision_metrics"`
 
 	// Run information
 	TotalRuns      int                    `json:"total_runs"`
@@ -102,7 +102,7 @@ type AveragedDecompressionResult struct {
 	MaxThroughputMBPS    float64 `json:"max_throughput_mbps"`
 
 	// Averaged precision metrics
-	AvgPrecisionMetrics AerospacePrecisionMetrics `json:"avg_precision_metrics"`
+	AvgPrecisionMetrics StatisticalPrecisionMetrics `json:"avg_precision_metrics"`
 
 	// Run information
 	TotalRuns      int                    `json:"total_runs"`
@@ -222,7 +222,7 @@ func AverageCompressionResults(results []*CompressionResult) *AveragedCompressio
 		return safeDiv(numerator, float64(denominator))
 	}
 
-	averaged.AvgPrecisionMetrics = AerospacePrecisionMetrics{
+	averaged.AvgPrecisionMetrics = StatisticalPrecisionMetrics{
 		CompressionTimeNs:          avgCompressionTimeNs,
 		TotalTimeNs:                avgCompressionTimeNs,
 		MemoryPeakBytes:            avgMemoryPeakBytes,

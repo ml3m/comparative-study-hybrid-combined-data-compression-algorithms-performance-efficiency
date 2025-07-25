@@ -7,29 +7,29 @@ import (
 	"fmt"
 	"time"
 
-	"hybrid-compression-study/pkg/core"
 	"hybrid-compression-study/internal/performance"
+	"hybrid-compression-study/pkg/core"
 )
 
 // PipelineStage represents a single stage in a compression pipeline
 type PipelineStage struct {
-	Component  core.CompressionAlgorithm  `json:"component"`
-	Name       string                     `json:"name"`
-	Parameters map[string]interface{}     `json:"parameters"`
-	Enabled    bool                       `json:"enabled"`
+	Component  core.CompressionAlgorithm `json:"component"`
+	Name       string                    `json:"name"`
+	Parameters map[string]interface{}    `json:"parameters"`
+	Enabled    bool                      `json:"enabled"`
 }
 
 // PipelineResult represents results from executing a compression pipeline
 type PipelineResult struct {
-	CompressedData          []byte                   `json:"compressed_data"`
-	OriginalSize            int64                    `json:"original_size"`
-	CompressedSize          int64                    `json:"compressed_size"`
-	TotalCompressionRatio   float64                  `json:"total_compression_ratio"`
-	TotalCompressionTime    float64                  `json:"total_compression_time"`
-	TotalDecompressionTime  float64                  `json:"total_decompression_time"`
-	StageResults            []map[string]interface{} `json:"stage_results"`
-	PipelineName            string                   `json:"pipeline_name"`
-	Metadata                map[string]interface{}   `json:"metadata"`
+	CompressedData         []byte                   `json:"compressed_data"`
+	OriginalSize           int64                    `json:"original_size"`
+	CompressedSize         int64                    `json:"compressed_size"`
+	TotalCompressionRatio  float64                  `json:"total_compression_ratio"`
+	TotalCompressionTime   float64                  `json:"total_compression_time"`
+	TotalDecompressionTime float64                  `json:"total_decompression_time"`
+	StageResults           []map[string]interface{} `json:"stage_results"`
+	PipelineName           string                   `json:"pipeline_name"`
+	Metadata               map[string]interface{}   `json:"metadata"`
 }
 
 // CompressionPercentage calculates total compression percentage
@@ -47,10 +47,10 @@ func (pr *PipelineResult) TotalTime() float64 {
 
 // CompressionPipeline allows chaining multiple compression algorithms
 type CompressionPipeline struct {
-	Name             string                                `json:"name"`
-	Stages           []PipelineStage                       `json:"stages"`
-	PerformanceMonitor *performance.AerospaceGradeMonitor `json:"-"`
-	Metadata         map[string]interface{}               `json:"metadata"`
+	Name               string                          `json:"name"`
+	Stages             []PipelineStage                 `json:"stages"`
+	PerformanceMonitor *performance.StatisticalMonitor `json:"-"`
+	Metadata           map[string]interface{}          `json:"metadata"`
 }
 
 // NewCompressionPipeline creates a new compression pipeline
@@ -59,7 +59,7 @@ func NewCompressionPipeline(name string) (*CompressionPipeline, error) {
 	if err != nil {
 		return nil, fmt.Errorf("failed to create performance monitor: %w", err)
 	}
-	
+
 	return &CompressionPipeline{
 		Name:               name,
 		Stages:             make([]PipelineStage, 0),
@@ -73,18 +73,18 @@ func (cp *CompressionPipeline) AddStage(component core.CompressionAlgorithm, nam
 	if name == "" {
 		name = fmt.Sprintf("Stage%d", len(cp.Stages))
 	}
-	
+
 	if parameters != nil {
 		component.SetParameters(parameters)
 	}
-	
+
 	stage := PipelineStage{
 		Component:  component,
 		Name:       name,
 		Parameters: parameters,
 		Enabled:    true,
 	}
-	
+
 	cp.Stages = append(cp.Stages, stage)
 	return cp
 }
@@ -120,7 +120,7 @@ func (cp *CompressionPipeline) Compress(ctx context.Context, data []byte) (*Pipe
 			TimestampNs:  time.Now().UnixNano(),
 		}
 	}
-	
+
 	if len(data) == 0 {
 		return &PipelineResult{
 			CompressedData:         []byte{},
@@ -134,22 +134,20 @@ func (cp *CompressionPipeline) Compress(ctx context.Context, data []byte) (*Pipe
 			Metadata:               make(map[string]interface{}),
 		}, nil
 	}
-	
+
 	startTime := time.Now()
-	
+
 	currentData := data
 	stageResults := make([]map[string]interface{}, 0)
 	stageMetadata := make([]map[string]interface{}, 0)
 	totalCompressionTime := 0.0
-	
+
 	// Process through each enabled stage
 	for i, stage := range cp.Stages {
 		if !stage.Enabled {
 			continue
 		}
-		
-		stageStart := time.Now()
-		
+
 		result, err := stage.Component.Compress(ctx, currentData)
 		if err != nil {
 			return nil, &core.PipelineError{
@@ -160,35 +158,35 @@ func (cp *CompressionPipeline) Compress(ctx context.Context, data []byte) (*Pipe
 				TimestampNs:  time.Now().UnixNano(),
 			}
 		}
-		
+
 		currentData = result.CompressedData
-		
+
 		stageInfo := map[string]interface{}{
-			"stage_index":      i,
-			"stage_name":       stage.Name,
-			"algorithm":        stage.Component.GetName(),
-			"input_size":       result.OriginalSize,
-			"output_size":      result.CompressedSize,
+			"stage_index":       i,
+			"stage_name":        stage.Name,
+			"algorithm":         stage.Component.GetName(),
+			"input_size":        result.OriginalSize,
+			"output_size":       result.CompressedSize,
 			"compression_ratio": result.CompressionRatio,
-			"compression_time": result.CompressionTime,
-			"metadata":         result.Metadata,
+			"compression_time":  result.CompressionTime,
+			"metadata":          result.Metadata,
 			"precision_metrics": result.PrecisionMetrics,
 		}
-		
+
 		stageResults = append(stageResults, stageInfo)
 		stageMetadata = append(stageMetadata, result.Metadata)
 		totalCompressionTime += result.CompressionTime
 	}
-	
+
 	endTime := time.Now()
 	actualTotalTime := endTime.Sub(startTime).Seconds()
-	
+
 	// Calculate overall metrics
 	totalRatio := float64(len(data)) / float64(len(currentData))
 	if len(currentData) == 0 {
 		totalRatio = float64(len(data)) // Avoid division by zero
 	}
-	
+
 	result := &PipelineResult{
 		CompressedData:         currentData,
 		OriginalSize:           int64(len(data)),
@@ -199,15 +197,15 @@ func (cp *CompressionPipeline) Compress(ctx context.Context, data []byte) (*Pipe
 		StageResults:           stageResults,
 		PipelineName:           cp.Name,
 		Metadata: map[string]interface{}{
-			"pipeline_stages":    len(cp.getEnabledStages()),
-			"stage_metadata":     stageMetadata,
-			"actual_total_time":  actualTotalTime,
-			"stage_names":        cp.getEnabledStageNames(),
-			"total_stages":       len(cp.Stages),
-			"enabled_stages":     len(cp.getEnabledStages()),
+			"pipeline_stages":   len(cp.getEnabledStages()),
+			"stage_metadata":    stageMetadata,
+			"actual_total_time": actualTotalTime,
+			"stage_names":       cp.getEnabledStageNames(),
+			"total_stages":      len(cp.Stages),
+			"enabled_stages":    len(cp.getEnabledStages()),
 		},
 	}
-	
+
 	return result, nil
 }
 
@@ -216,7 +214,7 @@ func (cp *CompressionPipeline) Decompress(ctx context.Context, compressedData []
 	if len(compressedData) == 0 {
 		return []byte{}, nil
 	}
-	
+
 	if len(pipelineResult.StageResults) == 0 {
 		return nil, &core.PipelineError{
 			Message:      "No stage results available for decompression",
@@ -224,15 +222,15 @@ func (cp *CompressionPipeline) Decompress(ctx context.Context, compressedData []
 			TimestampNs:  time.Now().UnixNano(),
 		}
 	}
-	
+
 	startTime := time.Now()
-	
+
 	currentData := compressedData
 	stageMetadata := pipelineResult.Metadata["stage_metadata"].([]map[string]interface{})
-	
+
 	// Process stages in reverse order
 	enabledStages := cp.getEnabledStages()
-	
+
 	for i := len(enabledStages) - 1; i >= 0; i-- {
 		stage := enabledStages[i]
 		metadataIdx := i
@@ -242,7 +240,7 @@ func (cp *CompressionPipeline) Decompress(ctx context.Context, compressedData []
 		} else {
 			metadata = make(map[string]interface{})
 		}
-		
+
 		result, err := stage.Component.Decompress(ctx, currentData, metadata)
 		if err != nil {
 			return nil, &core.PipelineError{
@@ -252,20 +250,20 @@ func (cp *CompressionPipeline) Decompress(ctx context.Context, compressedData []
 				TimestampNs:  time.Now().UnixNano(),
 			}
 		}
-		
+
 		currentData = result.DecompressedData
 	}
-	
+
 	// Update pipeline result with decompression time
 	pipelineResult.TotalDecompressionTime = time.Since(startTime).Seconds()
-	
+
 	return currentData, nil
 }
 
 // GetStageInfo returns information about all pipeline stages
 func (cp *CompressionPipeline) GetStageInfo() []map[string]interface{} {
 	info := make([]map[string]interface{}, len(cp.Stages))
-	
+
 	for i, stage := range cp.Stages {
 		info[i] = map[string]interface{}{
 			"index":          i,
@@ -276,36 +274,36 @@ func (cp *CompressionPipeline) GetStageInfo() []map[string]interface{} {
 			"algorithm_info": stage.Component.GetInfo(),
 		}
 	}
-	
+
 	return info
 }
 
 // ValidatePipeline validates the pipeline configuration
 func (cp *CompressionPipeline) ValidatePipeline() []string {
 	var issues []string
-	
+
 	if len(cp.Stages) == 0 {
 		issues = append(issues, "Pipeline has no stages")
 	}
-	
+
 	enabledStages := cp.getEnabledStages()
 	if len(enabledStages) == 0 {
 		issues = append(issues, "Pipeline has no enabled stages")
 	}
-	
+
 	// Check for potential issues in stage ordering
 	for i := 0; i < len(enabledStages)-1; i++ {
 		currentStage := enabledStages[i]
 		nextStage := enabledStages[i+1]
-		
+
 		// Dictionary algorithms work better before entropy coding
 		if currentStage.Component.GetCategory() == core.AlgorithmCategoryEntropyCoding &&
 			nextStage.Component.GetCategory() == core.AlgorithmCategoryDictionary {
-			issues = append(issues, fmt.Sprintf("Consider moving dictionary algorithm (%s) before entropy coding (%s)", 
+			issues = append(issues, fmt.Sprintf("Consider moving dictionary algorithm (%s) before entropy coding (%s)",
 				nextStage.Name, currentStage.Name))
 		}
 	}
-	
+
 	return issues
 }
 
@@ -315,14 +313,14 @@ func (cp *CompressionPipeline) Clone() (*CompressionPipeline, error) {
 	if err != nil {
 		return nil, err
 	}
-	
+
 	for _, stage := range cp.Stages {
 		// Note: This creates a shallow copy of the component
 		// In a production system, you'd want proper cloning of components
 		newPipeline.AddStage(stage.Component, stage.Name, stage.Parameters)
 		newPipeline.Stages[len(newPipeline.Stages)-1].Enabled = stage.Enabled
 	}
-	
+
 	return newPipeline, nil
 }
 
@@ -354,7 +352,7 @@ func (cp *CompressionPipeline) String() string {
 	if len(enabledStageNames) == 0 {
 		return fmt.Sprintf("CompressionPipeline('%s', no enabled stages)", cp.Name)
 	}
-	
+
 	stages := ""
 	for i, name := range enabledStageNames {
 		if i > 0 {
@@ -362,7 +360,7 @@ func (cp *CompressionPipeline) String() string {
 		}
 		stages += name
 	}
-	
+
 	return fmt.Sprintf("CompressionPipeline('%s', stages: %s)", cp.Name, stages)
 }
 
@@ -377,7 +375,7 @@ func NewPipelineBuilder(name string) (*PipelineBuilder, error) {
 	if err != nil {
 		return nil, err
 	}
-	
+
 	return &PipelineBuilder{
 		pipeline: pipeline,
 	}, nil
@@ -429,7 +427,7 @@ func (pp *PredefinedPipelines) TextOptimized() (*CompressionPipeline, error) {
 	if err != nil {
 		return nil, err
 	}
-	
+
 	// This would be implemented with actual algorithm instances
 	// For now, returning empty pipeline
 	return pipeline, nil
@@ -441,7 +439,7 @@ func (pp *PredefinedPipelines) BinaryOptimized() (*CompressionPipeline, error) {
 	if err != nil {
 		return nil, err
 	}
-	
+
 	// This would be implemented with actual algorithm instances
 	// For now, returning empty pipeline
 	return pipeline, nil
@@ -453,7 +451,7 @@ func (pp *PredefinedPipelines) HighCompression() (*CompressionPipeline, error) {
 	if err != nil {
 		return nil, err
 	}
-	
+
 	// This would be implemented with actual algorithm instances
 	// For now, returning empty pipeline
 	return pipeline, nil
@@ -465,8 +463,8 @@ func (pp *PredefinedPipelines) FastCompression() (*CompressionPipeline, error) {
 	if err != nil {
 		return nil, err
 	}
-	
+
 	// This would be implemented with actual algorithm instances
 	// For now, returning empty pipeline
 	return pipeline, nil
-} 
+}

@@ -1,0 +1,167 @@
+{
+  "version": "1.0",
+  "default_pipeline": "text_optimized",
+  "pipelines": {
+    "audio_optimized": {
+      "name": "Audio Optimized",
+      "description": "Optimized for audio and time-series data",
+      "algorithms": [
+        {
+          "name": "delta",
+          "enabled": true,
+          "parameters": {
+            "data_width": 2,
+            "predictor_type": "adaptive",
+            "signed_data": true
+          }
+        },
+        {
+          "name": "rle",
+          "enabled": true,
+          "parameters": {
+            "escape_byte": 0,
+            "min_run_length": 4
+          }
+        },
+        {
+          "name": "huffman",
+          "enabled": true
+        }
+      ],
+      "metadata": {
+        "best_for": [
+          "audio",
+          "time_series",
+          "sensor_data"
+        ],
+        "complexity": "medium",
+        "specialized": true
+      }
+    },
+    "fast_compression": {
+      "name": "Fast Compression",
+      "description": "Fast compression pipeline optimized for speed",
+      "algorithms": [
+        {
+          "name": "rle",
+          "enabled": true,
+          "parameters": {
+            "escape_byte": 0,
+            "min_run_length": 2
+          }
+        },
+        {
+          "name": "lzw",
+          "enabled": true,
+          "parameters": {
+            "max_code_bits": 12
+          }
+        }
+      ],
+      "metadata": {
+        "best_for": [
+          "binary",
+          "mixed_data"
+        ],
+        "complexity": "low",
+        "speed": "very_fast"
+      }
+    },
+    "high_compression": {
+      "name": "High Compression",
+      "description": "Maximum compression ratio pipeline",
+      "algorithms": [
+        {
+          "name": "delta",
+          "enabled": true,
+          "parameters": {
+            "data_width": 1,
+            "predictor_type": "linear",
+            "signed_data": false
+          }
+        },
+        {
+          "name": "bwt",
+          "enabled": true
+        },
+        {
+          "name": "mtf",
+          "enabled": true
+        },
+        {
+          "name": "rle",
+          "enabled": true,
+          "parameters": {
+            "escape_byte": 0,
+            "min_run_length": 3
+          }
+        },
+        {
+          "name": "lzw",
+          "enabled": true,
+          "parameters": {
+            "max_code_bits": 14
+          }
+        },
+        {
+          "name": "huffman",
+          "enabled": true
+        }
+      ],
+      "metadata": {
+        "best_for": [
+          "text",
+          "repetitive_data"
+        ],
+        "complexity": "very_high",
+        "compression_ratio": "maximum",
+        "speed": "slow"
+      }
+    },
+    "text_optimized": {
+      "name": "Text Optimized",
+      "description": "Optimized pipeline for text data compression",
+      "algorithms": [
+        {
+          "name": "bwt",
+          "enabled": true,
+          "parameters": {
+            "end_marker": "$"
+          }
+        },
+        {
+          "name": "mtf",
+          "enabled": true
+        },
+        {
+          "name": "rle",
+          "enabled": true,
+          "parameters": {
+            "escape_byte": 0,
+            "min_run_length": 3
+          }
+        },
+        {
+          "name": "huffman",
+          "enabled": true
+        }
+      ],
+      "metadata": {
+        "best_for": [
+          "text",
+          "source_code",
+          "documents"
+        ],
+        "complexity": "high",
+        "compression_ratio": "excellent"
+      }
+    }
+  },
+  "global_settings": {
+    "benchmark_mode": false,
+    "default_tries": 1,
+    "json_output": false,
+    "output_directory": "./compressed/",
+    "verbose_output": false
+  }
+}

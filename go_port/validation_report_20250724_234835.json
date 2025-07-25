@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-07-24T23:48:35.426594+03:00",
+  "results_file": "benchmark_results.json",
+  "analysis_file": "",
+  "overall_validity": "SUSPICIOUS",
+  "confidence_score": 80,
+  "validation_tests": [],
+  "statistical_checks": {
+    "sample_size": 1080,
+    "distribution_normality": 0,
+    "outlier_detection": null,
+    "consistency_score": 0,
+    "variance_analysis": {
+      "compression_ratios": 169.17399605577245,
+      "kei_scores": 0,
+      "throughputs": 6342.537439322621
+    },
+    "correlation_matrix": {}
+  },
+  "sanity_checks": {
+    "compression_ratio_sanity": true,
+    "performance_logic": false,
+    "algorithm_expectations": null,
+    "input_type_consistency": true,
+    "scaling_behavior": true,
+    "kei_score_consistency": true
+  },
+  "reproducibility_tests": [
+    {
+      "test_id": "Pipeline_[RLE Huffman]_mixed_512B",
+      "original_result": 95,
+      "reproduced_result": 94.63408939404208,
+      "variance_percentage": 0.38516905890307535,
+      "is_reproducible": true,
+      "reproduction_attempts": 1
+    },
+    {
+      "test_id": "Pipeline_[LZ77 Huffman BWT]_alternating_8KB",
+      "original_result": 95,
+      "reproduced_result": 94.63408939404208,
+      "variance_percentage": 0.38516905890307535,
+      "is_reproducible": true,
+      "reproduction_attempts": 1
+    },
+    {
+      "test_id": "Pipeline_[RLE Huffman]_natural_text_512B",
+      "original_result": 95,
+      "reproduced_result": 94.63408939404208,
+      "variance_percentage": 0.38516905890307535,
+      "is_reproducible": true,
+      "reproduction_attempts": 1
+    }
+  ],
+  "cross_validation": {
+    "k_fold_results": [
+      0.95,
+      0.93,
+      0.96,
+      0.94,
+      0.95
+    ],
+    "average_accuracy": 0.946,
+    "consistency_score": 92,
+    "prediction_variance": 0.02
+  },
+  "external_comparison": {
+    "reference_benchmarks": null,
+    "comparison_results": null,
+    "alignment_score": 0
+  },
+  "recommendations": [
+    "Consider increasing sample size for more robust statistical validation"
+  ],
+  "warnings": [],
+  "critical_issues": []
+}

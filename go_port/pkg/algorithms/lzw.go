@@ -16,7 +16,7 @@ type LZWEncoder struct {
 	category        core.AlgorithmCategory
 	compressionType core.CompressionType
 	parameters      map[string]interface{}
-	monitor         *performance.AerospaceGradeMonitor
+	monitor         *performance.StatisticalMonitor
 	
 	// LZW-specific parameters
 	maxCodeBits int
@@ -152,7 +152,7 @@ func (l *LZWEncoder) Compress(ctx context.Context, data []byte) (*core.Compressi
 			CompressionTime:  0.0,
 			AlgorithmName:    l.name,
 			Metadata:         make(map[string]interface{}),
-			PrecisionMetrics: core.AerospacePrecisionMetrics{},
+			PrecisionMetrics: core.StatisticalPrecisionMetrics{},
 		}, nil
 	}
 	
@@ -263,7 +263,7 @@ func (l *LZWEncoder) Decompress(ctx context.Context, compressedData []byte, meta
 			DecompressionTime:      0.0,
 			AlgorithmName:          l.name,
 			Metadata:               make(map[string]interface{}),
-			PrecisionMetrics:       core.AerospacePrecisionMetrics{},
+			PrecisionMetrics:       core.StatisticalPrecisionMetrics{},
 		}, nil
 	}
 	
@@ -387,8 +387,8 @@ func (l *LZWEncoder) Decompress(ctx context.Context, compressedData []byte, meta
 }
 
 // convertProfileToMetrics converts performance profile to aerospace precision metrics
-func (l *LZWEncoder) convertProfileToMetrics(profile *performance.PrecisionPerformanceProfile, dataSize, outputSize int64) core.AerospacePrecisionMetrics {
-	metrics := core.AerospacePrecisionMetrics{
+func (l *LZWEncoder) convertProfileToMetrics(profile *performance.PrecisionPerformanceProfile, dataSize, outputSize int64) core.StatisticalPrecisionMetrics {
+	metrics := core.StatisticalPrecisionMetrics{
 		CompressionTimeNs:             profile.DurationNs,
 		TotalTimeNs:                   profile.DurationNs,
 		MemoryPeakBytes:               profile.MemoryPeakBytes,

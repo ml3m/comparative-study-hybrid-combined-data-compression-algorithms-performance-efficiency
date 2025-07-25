@@ -16,7 +16,7 @@ type RLEEncoder struct {
 	category        core.AlgorithmCategory
 	compressionType core.CompressionType
 	parameters      map[string]interface{}
-	monitor         *performance.AerospaceGradeMonitor
+	monitor         *performance.StatisticalMonitor
 	
 	// RLE-specific parameters
 	escapeByte    byte
@@ -113,7 +113,7 @@ func (r *RLEEncoder) Compress(ctx context.Context, data []byte) (*core.Compressi
 			CompressionTime:  0.0,
 			AlgorithmName:    r.name,
 			Metadata:         make(map[string]interface{}),
-			PrecisionMetrics: core.AerospacePrecisionMetrics{},
+			PrecisionMetrics: core.StatisticalPrecisionMetrics{},
 		}, nil
 	}
 	
@@ -211,7 +211,7 @@ func (r *RLEEncoder) Decompress(ctx context.Context, compressedData []byte, meta
 			DecompressionTime:      0.0,
 			AlgorithmName:          r.name,
 			Metadata:               make(map[string]interface{}),
-			PrecisionMetrics:       core.AerospacePrecisionMetrics{},
+			PrecisionMetrics:       core.StatisticalPrecisionMetrics{},
 		}, nil
 	}
 	
@@ -285,8 +285,8 @@ func (r *RLEEncoder) Decompress(ctx context.Context, compressedData []byte, meta
 }
 
 // convertProfileToMetrics converts performance profile to aerospace precision metrics
-func (r *RLEEncoder) convertProfileToMetrics(profile *performance.PrecisionPerformanceProfile, dataSize, outputSize int64) core.AerospacePrecisionMetrics {
-	metrics := core.AerospacePrecisionMetrics{
+func (r *RLEEncoder) convertProfileToMetrics(profile *performance.PrecisionPerformanceProfile, dataSize, outputSize int64) core.StatisticalPrecisionMetrics {
+	metrics := core.StatisticalPrecisionMetrics{
 		CompressionTimeNs:             profile.DurationNs,
 		TotalTimeNs:                   profile.DurationNs,
 		MemoryPeakBytes:               profile.MemoryPeakBytes,

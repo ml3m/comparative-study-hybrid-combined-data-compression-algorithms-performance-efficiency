@@ -1,0 +1,46 @@
+
+You're now asking:
+
+> From a list of 10 items, how many total **arrangements** are possible if we pick **2 or more** items?
+
+This is a case of **permutations of subsets**, not just full-length arrangements.
+
+---
+
+### ✅ What we want:
+
+We are picking and arranging **r items at a time**, for every value of **r = 2 to 10**.
+
+That is:
+
+$$
+\sum_{r=2}^{10} P(10, r) = \sum_{r=2}^{10} \frac{10!}{(10 - r)!}
+$$
+
+---
+
+### 🔢 Let's compute each term:
+
+* $P(10, 2) = \frac{10!}{8!} = 90$
+* $P(10, 3) = \frac{10!}{7!} = 720$
+* $P(10, 4) = \frac{10!}{6!} = 5040$
+* $P(10, 5) = \frac{10!}{5!} = 30240$
+* $P(10, 6) = \frac{10!}{4!} = 151200$
+* $P(10, 7) = \frac{10!}{3!} = 604800$
+* $P(10, 8) = \frac{10!}{2!} = 1814400$
+* $P(10, 9) = \frac{10!}{1!} = 3628800$
+* $P(10, 10) = \frac{10!}{0!} = 3628800$
+
+---
+
+### ✅ Add them up:
+
+$$
+90 + 720 + 5040 + 30240 + 151200 + 604800 + 1814400 + 3628800 + 3628800 = \boxed{10,156,090}
+$$
+
+---
+
+### ✔️ Final Answer:
+
+There are **10,156,090** different ways to arrange **2 or more** items from a list of 10 distinct items.
